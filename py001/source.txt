@@ -1,0 +1,1237 @@
+<ul class="cf" style="display: block;">
+			<!--list-->
+
+
+
+<li id="1973" test="0" deg="0" stop="1">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1973.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1973&amp;posColumn=1973.1">
+			<img src="http://a1.jikexueyuan.com/home/201509/09/2865/55ef99b9e6be3.jpg" class="lessonimg" title="Android 开发实战：短信验证码自动填写" alt="Android 开发实战：短信验证码自动填写">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1973&amp;posColumn=1973.1"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1973.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1973&amp;posColumn=1973.1">Android 开发实战：短信验证码自动填写</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要讲解在 Android 中使用短信验证功能时，自动获取发送到用户手机上的验证短信，并将其中的验证码提取出来自动填写到输入框中。通过 ContentObserver 方式监听短信变化，正则方式匹配验证码。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							35分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">8794人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box" style="bottom: 4px;">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1973&amp;posColumn=1973.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1967" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1967.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1967&amp;posColumn=1967.2">
+			<img src="http://a1.jikexueyuan.com/home/201509/08/9aa7/55ee3f320afc5.jpg" class="lessonimg" title="Android 粒子效果之音量" alt="Android 粒子效果之音量">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1967&amp;posColumn=1967.2"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1967.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1967&amp;posColumn=1967.2">Android 粒子效果之音量</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程继自定义 View 基础和原理及 Android 粒子效果之雨之后的系列课程，在系列课程中，我们会不断完善分装的 BaseView 来满足设计各种粒子动画效果。在本课程的讲解中，大家会觉得和 Android 粒子效果之雨的课程有很多相同，而接下来后面的粒子效果其实也有很多的类似行为和思路。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							67分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">4400人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1967&amp;posColumn=1967.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1940" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1940.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1940&amp;posColumn=1940.3">
+			<img src="http://a1.jikexueyuan.com/home/201509/06/576c/55eb954f2f744.jpg" class="lessonimg" title="开发者跟 Android 设备及模拟器通讯的工具：adb （下）" alt="开发者跟 Android 设备及模拟器通讯的工具：adb （下）">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1940&amp;posColumn=1940.3"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1940.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1940&amp;posColumn=1940.3">开发者跟 Android 设备及模拟器通讯的工具：adb （下）</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程介绍 adb 命令，以及 adb 命令所能完成的工作，并从不同角度来深入学习 adb 命令的使用。 adb 命令是开发者必须掌握的基础，熟练使用一些 adb 命令，会大大提升工作效率。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							66分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">3601人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1940&amp;posColumn=1940.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1934" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<i class="free-icon"></i>
+		<a href="http://www.jikexueyuan.com/course/1934.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1934&amp;posColumn=1934.4">
+			<img src="http://a1.jikexueyuan.com/home/201509/02/b5ff/55e657e4e883b.jpg" class="lessonimg" title="Android 开发规范" alt="Android 开发规范">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1934&amp;posColumn=1934.4"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1934.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1934&amp;posColumn=1934.4">Android 开发规范</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要为大家讲解在 Android 开发中搭建项目时，整体的设计架构风格和规范以及基础架构、代码命名和编写规范等等。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							41分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">10216人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1934&amp;posColumn=1934.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1928" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<i class="free-icon"></i>
+		<a href="http://www.jikexueyuan.com/course/1928.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1928&amp;posColumn=1928.5">
+			<img src="http://a1.jikexueyuan.com/home/201509/01/fa10/55e5088dce955.jpg" class="lessonimg" title="Android 开发实战：动态图播放控件" alt="Android 开发实战：动态图播放控件">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1928&amp;posColumn=1928.5"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1928.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1928&amp;posColumn=1928.5">Android 开发实战：动态图播放控件</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			介绍什么是动态图，以及 GIF 格式动态图的播放原理。最后将其封装成一个自定义控件。封装的过程中我们还会介绍自定义控件的一些基本处理方法，包括控件大小的控制等。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							42分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">6603人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1928&amp;posColumn=1928.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1918" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1918.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1918&amp;posColumn=1918.6">
+			<img src="http://a1.jikexueyuan.com/home/201508/31/3768/55e3b23e4d015.jpg" class="lessonimg" title="Android 开发实战：即时语音聊天工具之账户系统" alt="Android 开发实战：即时语音聊天工具之账户系统">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1918&amp;posColumn=1918.6"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1918.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1918&amp;posColumn=1918.6">Android 开发实战：即时语音聊天工具之账户系统</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程将带领大家通过集成融云即时通讯工具的 SDK ，来为自己的应用添加即时文字、语音通讯功能。通过本课的学习，我们将搭建一个服务于我们的即时聊天应用的简单账户系统，实现登录、注册、添加好友等功能。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							54分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">4883人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1918&amp;posColumn=1918.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1894" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1894.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1894&amp;posColumn=1894.7">
+			<img src="http://a1.jikexueyuan.com/home/201508/25/8480/55dbc8d068500.jpg" class="lessonimg" title="Android 开发实战：即时语音聊天工具之聊天界面" alt="Android 开发实战：即时语音聊天工具之聊天界面">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1894&amp;posColumn=1894.7"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1894.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1894&amp;posColumn=1894.7">Android 开发实战：即时语音聊天工具之聊天界面</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程将带领大家通过集成融云即时通讯工具的 SDK ，为自己的应用添加即时文字、语音通讯功能。通过本课的学习，我们将学会编写应用的好友列表，会话列表以及聊天界面。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							31分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">6471人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1894&amp;posColumn=1894.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1859" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1859.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1859&amp;posColumn=1859.8">
+			<img src="http://a1.jikexueyuan.com/home/201508/18/a4da/55d29ef6b9c9b.jpg" class="lessonimg" title="Android 粒子效果之雨" alt="Android 粒子效果之雨">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1859&amp;posColumn=1859.8"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1859.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1859&amp;posColumn=1859.8">Android 粒子效果之雨</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程将会编写一个下雨场景的粒子效果，一步一步的来讲解粒子效果的思路和完成编程的过程。粒子效果看起来好像很复杂，但是当我们将之分析为每个个体的行为时就会有头绪，然后通过对个体的改变，可以影响粒子的整体效果。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							46分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">6359人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1859&amp;posColumn=1859.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1835" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1835.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1835&amp;posColumn=1835.9">
+			<img src="http://a1.jikexueyuan.com/home/201508/13/4c58/55cbf7849f701.jpg" class="lessonimg" title="Android 开发实战：微博之图片浏览功能" alt="Android 开发实战：微博之图片浏览功能">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1835&amp;posColumn=1835.9"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1835.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1835&amp;posColumn=1835.9">Android 开发实战：微博之图片浏览功能</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程中将实现微博里的图片浏览功能，我们会在实现原有的左右滑动浏览基础上，再添加无限轮播的效果，还会根据获取图片的大小比例，去动态设置每一张图片的显示规则。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							48分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">6462人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1835&amp;posColumn=1835.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1821" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<i class="free-icon"></i>
+		<a href="http://www.jikexueyuan.com/course/1821.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1821&amp;posColumn=1821.10">
+			<img src="http://a1.jikexueyuan.com/home/201508/12/4845/55caad4259e9c.jpg" class="lessonimg" title="Android App 性能评测与调优" alt="Android App 性能评测与调优">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1821&amp;posColumn=1821.10"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1821.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1821&amp;posColumn=1821.10">Android App 性能评测与调优</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程介绍了 Android App 各项性能如 CPU、内存消耗等都是开发测试中需要关注的指标，如何将 App 打造的更加“优雅”是开发者们需要不断追求探索的方向，本课从内存和流畅度两个纬度来说说如何对 Android App 进行评测和调优。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>5课时
+							46分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">6352人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1821&amp;posColumn=1821.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1823" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1823.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1823&amp;posColumn=1823.11">
+			<img src="http://a1.jikexueyuan.com/home/201508/12/950b/55caa4d77303c.jpg" class="lessonimg" title="Android 开发实战：微博之我页面和个人中心页面的开发" alt="Android 开发实战：微博之我页面和个人中心页面的开发">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1823&amp;posColumn=1823.11"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1823.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1823&amp;posColumn=1823.11">Android 开发实战：微博之我页面和个人中心页面的开发</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程中将实现两个页面的开发，主页面导航中的我页面以及个人中心页面。我页面中主要是一些设置栏列表比较简单。个人中心页面可以查看用户的基本信息，以及该用户发的微博列表，这里主要会介绍整个页面布局结构的实现，尤其是用户信息的背景图片如何跟着滚动进行对应的显示效果处理。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							58分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">5586人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1823&amp;posColumn=1823.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1815" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1815.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1815&amp;posColumn=1815.12">
+			<img src="http://a1.jikexueyuan.com/home/201508/11/ec72/55c9511cdd151.jpg" class="lessonimg" title="Android 开发实战：即时语音聊天工具之项目搭建" alt="Android 开发实战：即时语音聊天工具之项目搭建">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1815&amp;posColumn=1815.12"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1815.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1815&amp;posColumn=1815.12">Android 开发实战：即时语音聊天工具之项目搭建</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程将带领大家通过集成融云即时通讯工具的 SDK ，来为自己的应用添加即时文字、语音通讯功能。通过第一课的学习，我们将对融云即时通讯平台有一定的了解，并对整个项目的结构有一定的了解。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							35分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">5134人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1815&amp;posColumn=1815.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1806" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1806.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1806&amp;posColumn=1806.13">
+			<img src="http://a1.jikexueyuan.com/home/201508/10/7fa1/55c807fd548be.jpg" class="lessonimg" title="开发者与 Android 设备及模拟器通讯的工具：adb （上）" alt="开发者与 Android 设备及模拟器通讯的工具：adb （上）">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1806&amp;posColumn=1806.13"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1806.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1806&amp;posColumn=1806.13">开发者与 Android 设备及模拟器通讯的工具：adb （上）</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程介绍 adb 命令，以及 adb 命令所能完成的工作。本课程从不同的角度来深入学习 adb 命令的使用。 adb 命令是开发者必须掌握的基础，熟练使用一些 adb 命令，会大大提升工作效率。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							34分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">3752人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1806&amp;posColumn=1806.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1748" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<i class="free-icon"></i>
+		<a href="http://www.jikexueyuan.com/course/1748.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1748&amp;posColumn=1748.14">
+			<img src="http://a1.jikexueyuan.com/home/201508/04/e53c/55c01fefca194.jpg" class="lessonimg" title="自定义 View 基础和原理" alt="自定义 View 基础和原理">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1748&amp;posColumn=1748.14"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1748.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1748&amp;posColumn=1748.14">自定义 View 基础和原理</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要讲解最简单的自定义 View，然后加入绘制元素（文字和图形等），接着让绘制的元素动起来。接下来进行封装自己的通用自定义 View，最后演示通过 xml 中的样式属性来影响显示效果。本课程的重点是利用 Canvas 来绘制逻辑线程，通过本课程的学习希望可以熟练使用 xml 的样式属性在自定义 View 中应用。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>5课时
+							73分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">9681人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1748&amp;posColumn=1748.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1715" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1715.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1715&amp;posColumn=1715.15">
+			<img src="http://a1.jikexueyuan.com/home/201507/30/a321/55b982b52af95.jpg" class="lessonimg" title="图片缩放库 Photoview 和 Gif  控件 GifView 的使用" alt="图片缩放库 Photoview 和 Gif  控件 GifView 的使用">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1715&amp;posColumn=1715.15"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1715.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1715&amp;posColumn=1715.15">图片缩放库 Photoview 和 Gif  控件 GifView 的使用</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要讲解 Android 中对图片的单点、触摸缩放的库 PhotoView 的使用以及可播放 Gif 动画图片的控件库 GifView 的基本使用。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							17分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">5385人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1715&amp;posColumn=1715.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1701" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1701.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1701&amp;posColumn=1701.16">
+			<img src="http://a1.jikexueyuan.com/home/201507/30/a97b/55b97fd56d0a3.jpg" class="lessonimg" title="Android 开发实战：微博之发微博页面表情面板和接口开发" alt="Android 开发实战：微博之发微博页面表情面板和接口开发">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1701&amp;posColumn=1701.16"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1701.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1701&amp;posColumn=1701.16">Android 开发实战：微博之发微博页面表情面板和接口开发</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程中将演示发微博页面里的表情面板功能，会用 ViewPager 嵌套 GridView 的方式实现，每一页都是一组表情图片，点击图片时会将表情加到输入框中，每个 GridView 的末尾还会有一个删除按钮。此外还会介绍接口的开发，微博 API 中对于发布微博提供了多个接口，我们根据微博内容分别调用。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							47分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">4599人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1701&amp;posColumn=1701.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1659" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1659.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1659&amp;posColumn=1659.17">
+			<img src="http://a1.jikexueyuan.com/home/201507/23/bc0b/55b04bff82388.jpg" class="lessonimg" title="Android 非空格式验证框架的使用" alt="Android 非空格式验证框架的使用">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1659&amp;posColumn=1659.17"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1659.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1659&amp;posColumn=1659.17">Android 非空格式验证框架的使用</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要讲解 Android 中非空格式验证、手机、邮件等格式的验证框架 Android Validation 的用法。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							30分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">4718人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1659&amp;posColumn=1659.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1642" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1642.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1642&amp;posColumn=1642.18">
+			<img src="http://a1.jikexueyuan.com/home/201507/22/ff2e/55af4bf0d4eed.jpg" class="lessonimg" title="Android 开发实战：微博之发微博页面图片处理" alt="Android 开发实战：微博之发微博页面图片处理">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1642&amp;posColumn=1642.18"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1642.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1642&amp;posColumn=1642.18">Android 开发实战：微博之发微博页面图片处理</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程将演示发微博页面中的图片添加和删除等处理方法。图片的选择包括从手机相册选择以及拍照获取图片两种方式，获取到的图片将用 GridView 控件以九宫格的形式显示，同时每个图片都会在右上角添加一个叉号按钮提供删除功能。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							36分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">4737人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1642&amp;posColumn=1642.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1607" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1607.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1607&amp;posColumn=1607.19">
+			<img src="http://a1.jikexueyuan.com/home/201507/16/ffec/55a71715e5056.jpg" class="lessonimg" title="Android 开发实战：自动检测更新功能的实现" alt="Android 开发实战：自动检测更新功能的实现">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1607&amp;posColumn=1607.19"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1607.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1607&amp;posColumn=1607.19">Android 开发实战：自动检测更新功能的实现</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程讲解 Android 中如何自动检测并更新到最新版本，首先使用现有的开发者服务来实现自动更新，再逐步通过实际编写代码来实现同样的功能。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>6课时
+							59分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">6993人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1607&amp;posColumn=1607.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1592" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1592.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1592&amp;posColumn=1592.20">
+			<img src="http://a1.jikexueyuan.com/home/201507/15/d6c8/55a5bffbb592f.jpg" class="lessonimg" title="Android 项目开发实战：图案解锁" alt="Android 项目开发实战：图案解锁">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1592&amp;posColumn=1592.20"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1592.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1592&amp;posColumn=1592.20">Android 项目开发实战：图案解锁</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程讲解在 Android 上实现一个自定义的图案解锁用户控件，并利用这个自定义控件为应用添加图案解锁功能。该应用可以允许用户设置自己的解锁图案，然后就可以使用该图案进行解锁。应用使用自定义 View 实现基本点的显示与切换，使用 Canvas 实现界面的绘制。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>5课时
+							72分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">7287人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1592&amp;posColumn=1592.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1576" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1576.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1576&amp;posColumn=1576.21">
+			<img src="http://a1.jikexueyuan.com/home/201507/14/34f5/55a4a6be9e8b9.jpg" class="lessonimg" title="HTML、XML 等 Dom 结点类解析库的使用" alt="HTML、XML 等 Dom 结点类解析库的使用">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1576&amp;posColumn=1576.21"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1576.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1576&amp;posColumn=1576.21">HTML、XML 等 Dom 结点类解析库的使用</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要讲解 Android 中具有 Dom 结点标签的文本文件的解析库 jsoup 的使用，例如 Html、XML、Epub3 及自定义标签的文本的解析。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							40分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon3"></i><em>高级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">4200人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1576&amp;posColumn=1576.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1585" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1585.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1585&amp;posColumn=1585.22">
+			<img src="http://a1.jikexueyuan.com/home/201507/14/d78c/55a468fbbb964.jpg" class="lessonimg" title="Android 开发实战：微博之详情页面的开发" alt="Android 开发实战：微博之详情页面的开发">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1585&amp;posColumn=1585.22"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1585.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1585&amp;posColumn=1585.22">Android 开发实战：微博之详情页面的开发</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程将带大家分析微博详情页的布局结构，并提供几种实现思路。项目中采用的是 PullToRefreshListView 添加 HeaderView 的方式。此外还介绍演示了不同入口跳转到微博详情页的区别处理，以及微博评论列表的获取显示和评论发表功能。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							38分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">4666人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1585&amp;posColumn=1585.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1549" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1549.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1549&amp;posColumn=1549.23">
+			<img src="http://a1.jikexueyuan.com/home/201507/09/867c/559dd7c3a4b72.jpg" class="lessonimg" title="Android JSON 解析库的使用" alt="Android JSON 解析库的使用">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1549&amp;posColumn=1549.23"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1549.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1549&amp;posColumn=1549.23">Android JSON 解析库的使用</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要讲解 Android 中 JSON 格式数据类型高效解析框架的使用和优势，并配以示例加以理解。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							36分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">7350人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1549&amp;posColumn=1549.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+<li id="1544" test="0" deg="0">
+	<div class="lessonimg-box">
+
+
+		<a href="http://www.jikexueyuan.com/course/1544.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1544&amp;posColumn=1544.24">
+			<img src="http://a1.jikexueyuan.com/home/201507/08/feaf/559c7bae2ecd4.jpg" class="lessonimg" title="Android职业路径图介绍" alt="Android职业路径图介绍">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1544&amp;posColumn=1544.24"></i>
+			</div>
+
+
+		</a>
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="http://www.jikexueyuan.com/course/1544.html" target="_blank" jktag="&amp;posGP=103001&amp;posArea=0002&amp;posOper=2004&amp;aCId=1544&amp;posColumn=1544.24">Android职业路径图介绍</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课介绍Android历史、Android职业现状、Android发展前景以及极客学院所提供的Android职业路径的知识规划
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>1课时
+							14分钟</em>
+					</dd>
+					<dd class="zhongji" style="display: none;">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number" style="display: none;">9294人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="http://www.jikexueyuan.com/course/android/">
+						<img width="16" src="http://a1.jikexueyuan.com/home/201411/03/00a1/54578d8e652c3.png" alt="android" title="Android" jktag="&amp;posGP=101001&amp;posArea=0002&amp;posOper=2005&amp;aCId=1544&amp;posColumn=1544.1&amp;aCCate=android">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+			<!--list end-->
+		</ul>
