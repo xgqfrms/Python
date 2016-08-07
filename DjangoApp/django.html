@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Django : python</title>
+</head>
+<body>
+	<div>
+		<a href="http://127.0.0.1:8000/index/">
+            http://127.0.0.1:8000/index/
+        </a>
+		<h3>
+			<a href="https://docs.djangoproject.com/en/1.10/intro/tutorial01/">
+                官方教程
+            </a>
+		</h3>
+		<pre>
+			<h1>Install <mark>virtualenv</mark> and <mark>virtualenvwrapper</mark></h1>
+			<a href="https://docs.djangoproject.com/en/1.10/howto/windows/">How to install Django on Windows</a>
+			virtualenv and virtualenvwrapper provide a dedicated environment for each Django project you create. While not mandatory, this is considered a best practice and will save you time in the future when you’re ready to deploy your project. Simply type:
+
+			<strong><i>pip install virtualenvwrapper-win</i></strong>
+
+			Then create a virtual environment for your project:
+
+			<strong><i>mkvirtualenv myproject</i></strong>
+
+			The virtual environment will be activated automatically and you’ll see “(myproject)” next to the command prompt to designate that. If you start a new command prompt, you’ll need to activate the environment again using:
+
+			<strong><i>workon myproject</i></strong>
+		</pre>
+        <h1>
+            CMD 项目目录：G:\wwwRoot\Python27\django
+        </h1>
+		<pre>
+			安装 Django
+			~/python>pip install django
+
+			创建 Django project
+			~/python>django-admin startproject DjangoApp
+
+			运行 HTTP server
+			~/python/DjangoApp>python manage.py runserver
+
+			创建 Django project app
+			~/python/DjangoApp>python manage.py startapp main_app
+
+			运行 HTTP server
+			~/python/DjangoApp>python manage.py runserver
+
+			查看 Django 版本
+			~/python/DjangoApp>python -m django --version
+		</pre>
+	</div>
+</body>
+</html>
