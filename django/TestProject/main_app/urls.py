@@ -1,7 +1,7 @@
-from django.conf.urls import url
+import django.conf.urls
 from . import views
 
 urlpatterns = [
     # localhost/index
-    url(r'^$', views.index),
+    django.conf.urls.url(r'^$', views.index),
 ]
