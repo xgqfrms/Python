@@ -1,5 +1,6 @@
 import django.conf.urls
 from . import views
+# . wildcard character ?
 
 urlpatterns = [
     # localhost/index
