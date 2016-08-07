@@ -1,3 +1,6 @@
+#!/usr/bin/python
+#  -*- coding: utf-8 -*-
+# import os, sys
 """DjangoApp URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -14,8 +17,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import include, url
+# import django.conf.urls
 from django.contrib import admin
 # from main_app import views
+# from . import views
+# . wildcard character(通配符) ?
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),

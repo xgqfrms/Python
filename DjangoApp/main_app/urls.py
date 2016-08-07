@@ -1,6 +1,8 @@
+#!/usr/bin/python
+#  -*- coding: utf-8 -*-
 import django.conf.urls
 from . import views
-# . wildcard character ?
+# . wildcard character(通配符) ?
 
 urlpatterns = [
     # localhost/index

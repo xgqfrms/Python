@@ -1,3 +1,6 @@
+#!/usr/bin/python
+#  -*- coding: utf-8 -*-
+# import os, sys
 """TestProject URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -15,7 +18,10 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from main_app import views
+# from main_app import views
+# import django.conf.urls
+# from . import views
+# . wildcard character(通配符) ?
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
