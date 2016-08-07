@@ -1,4 +1,3 @@
-__author__ = 'xray'
 import django.conf.urls
 from . import views
 
