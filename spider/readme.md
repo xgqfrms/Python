@@ -3,3 +3,7 @@
 ***
 
 ## logo
+
+```sh
+    $ pip install beautifulsoup4
+``` 
