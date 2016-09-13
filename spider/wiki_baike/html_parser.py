@@ -1,16 +1,17 @@
 __author__ = 'xray'
 # coding: utf8
 from bs4 import BeautifulSoup
-import re, urlparse
+import re
+import urlparse
 
 
 class HtmlParser(object):
     # def __init__(self):
     #     self
 
-    def get_new_urls(self, page_url, soup):
+    def _get_new_urls(self, page_url, soup):
         new_urls = set()
-        links = soup.find_all('a', href=re.compile(r'/view/\d+\.html'))
+        links = soup.find_all('a', href=re.compile(r'/view/\d+\.htm'))
         for link in links:
             new_url = link['href']
             new_full_url = urlparse.urljoin(page_url, new_url)
@@ -18,12 +19,12 @@ class HtmlParser(object):
         return new_urls
 
 
-    def get_new_data(self, page_url, soup):
-        res_data = {}
+    def _get_new_data(self, page_url, soup):
+        res_data={}
         #
         res_data['url'] = page_url
         #
-        title_node = soup.find('dd', class_='LemmaWgt-LemmaTitle-title').find('h1')
+        title_node = soup.find('dd', class_='lemmaWgt-lemmaTitle-title').find('h1')
         res_data['title'] = title_node.get_text()
         #
         summary_node = soup.find('div', class_='lemma-summary')
@@ -36,7 +37,7 @@ class HtmlParser(object):
             return
 
         soup = BeautifulSoup(html_cont, 'html.parser', from_encoding='utf-8')
-        new_urls = self.get_new_urls(page_url, soup)
-        new_data = self.get_new_data(page_url, soup)
+        new_urls = self._get_new_urls(page_url, soup)
+        new_data = self._get_new_data(page_url, soup)
         return new_urls, new_data
 

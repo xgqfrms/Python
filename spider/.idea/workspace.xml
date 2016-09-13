@@ -24,83 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spider_main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="spider_main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wiki_baike/spider_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4923077" vertical-offset="752" max-vertical-offset="1012">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding>
                 <element signature="e#35#69#0" expanded="true" />
-                <element signature="e#256#450#0" expanded="true" />
-                <element signature="e#490#1166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mian.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wiki_baike/mian.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25982907" vertical-offset="134" max-vertical-offset="990">
-              <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <element signature="e#177#406#0" expanded="true" />
-                <element signature="e#446#1300#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="url_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki_baike/url_manager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="770">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#95#146#0" expanded="true" />
-                <element signature="e#188#323#0" expanded="true" />
-                <element signature="e#367#479#0" expanded="true" />
-                <element signature="e#516#546#0" expanded="true" />
-                <element signature="e#583#670#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html_downloader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki_baike/html_downloader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="506">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <element signature="e#115#119#0" expanded="true" />
-                <element signature="e#158#330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html_parser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki_baike/html_parser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="902">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="e#35#64#0" expanded="true" />
-                <element signature="e#207#483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html_outputer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki_baike/html_outputer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="770">
-              <caret line="21" column="60" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="60" />
-              <folding>
-                <element signature="e#97#112#0" expanded="true" />
-                <element signature="e#156#223#0" expanded="true" />
+                <element signature="e#256#451#0" expanded="true" />
+                <element signature="e#491#1173#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,18 +52,23 @@
         <option value="$PROJECT_DIR$/wiki_baike/html_output.py" />
         <option value="$PROJECT_DIR$/wiki_baike/url_manager.py" />
         <option value="$PROJECT_DIR$/wiki_baike/html_downloader.py" />
-        <option value="$PROJECT_DIR$/wiki_baike/html_parser.py" />
         <option value="$PROJECT_DIR$/wiki_baike/html_outputer.py" />
         <option value="$PROJECT_DIR$/wiki_baike/mian.py" />
+        <option value="$PROJECT_DIR$/spider_baike/html_downloader.py" />
+        <option value="$PROJECT_DIR$/spider_baike/html_outputer.py" />
+        <option value="$PROJECT_DIR$/spider_baike/html_parser.py" />
+        <option value="$PROJECT_DIR$/spider_baike/url_manager.py" />
+        <option value="$PROJECT_DIR$/spider_baike/spider_main.py" />
+        <option value="$PROJECT_DIR$/wiki_baike/html_parser.py" />
         <option value="$PROJECT_DIR$/wiki_baike/spider_main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="324" />
+    <option name="y" value="11" />
+    <option name="width" value="1046" />
+    <option name="height" value="663" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -194,20 +131,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wiki_baike" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -226,7 +149,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.mian">
+  <component name="RunManager" selected="Python.spider_main">
     <configuration default="false" name="mian" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,6 +163,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="spider" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wiki_baike/mian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="url_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_baike" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_baike/url_manager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="spider_main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_baike" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_baike/spider_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -425,15 +386,19 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.test_urllib2" />
       <item index="1" class="java.lang.String" itemvalue="Python.test_bs4" />
       <item index="2" class="java.lang.String" itemvalue="Python.spider_main" />
       <item index="3" class="java.lang.String" itemvalue="Python.mian" />
+      <item index="4" class="java.lang.String" itemvalue="Python.url_manager" />
+      <item index="5" class="java.lang.String" itemvalue="Python.spider_main (1)" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.mian" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.spider_main (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.url_manager" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mian" />
       </list>
     </recent_temporary>
   </component>
@@ -443,15 +408,15 @@
     <myIsUseDefaultProxy>true</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="324" y="11" width="1046" height="663" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11160714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25992063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46329528" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43421054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -482,12 +447,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/wiki_baike/html_parser.py</url>
-          <line>2</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -600,17 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiki_baike/html_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="902">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="e#35#64#0" expanded="true" />
-            <element signature="e#207#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiki_baike/html_downloader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="506">
@@ -638,7 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wiki_baike/html_outputer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="770">
+        <state vertical-scroll-proportion="0.7897436" vertical-offset="0" max-vertical-offset="770">
           <caret line="21" column="60" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="60" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
@@ -647,25 +595,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiki_baike/spider_main.py">
+    <entry file="file://$PROJECT_DIR$/wiki_baike/mian.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
-            <element signature="e#35#69#0" expanded="true" />
-            <element signature="e#256#450#0" expanded="true" />
-            <element signature="e#490#1166#0" expanded="true" />
+            <element signature="e#35#114#0" expanded="true" />
+            <element signature="e#191#398#0" expanded="true" />
+            <element signature="e#438#1193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiki_baike/mian.py">
+    <entry file="file://$PROJECT_DIR$/wiki_baike/html_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25982907" vertical-offset="134" max-vertical-offset="990">
-          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state vertical-scroll-proportion="2.0724638" vertical-offset="0" max-vertical-offset="1078">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
           <folding>
-            <element signature="e#177#406#0" expanded="true" />
-            <element signature="e#446#1300#0" expanded="true" />
+            <element signature="e#35#64#0" expanded="true" />
+            <element signature="e#214#489#0" expanded="true" />
+            <element signature="e#950#1231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki_baike/output.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="244">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki_baike/spider_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4923077" vertical-offset="752" max-vertical-offset="1012">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="e#35#69#0" expanded="true" />
+            <element signature="e#256#451#0" expanded="true" />
+            <element signature="e#491#1173#0" expanded="true" />
           </folding>
         </state>
       </provider>
