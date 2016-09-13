@@ -31,11 +31,10 @@ class SpiderMain(object):
             except Exception as e:
                 logging.exception(e)
                 print 'error'
-
         self.outputer.output_html()
 
 if __name__ == '__main__':
-    root_url = 'http://baike.baidu.com/view/21087.html'
+    root_url = 'http://baike.baidu.com/view/21087.htm'
     # root_url = 'https://rollbar.com/docs/'
     obj_spider = SpiderMain()
     obj_spider.craw(root_url)
