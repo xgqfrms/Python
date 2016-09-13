@@ -1,7 +1,11 @@
 __author__ = 'xray'
 # coding: utf8
-from wiki_baike import url_manager, html_downloader, html_parser, html_outputer
+from wiki_baike import url_manager
+from wiki_baike import html_downloader
+from wiki_baike import html_parser
+from wiki_baike import html_outputer
 import logging
+
 
 class SpiderMain(object):
     def __init__(self):
@@ -30,13 +34,7 @@ class SpiderMain(object):
 
         self.outputer.output_html()
 
-'''
-  # http://stackoverflow.com/questions/30442236/how-to-prevent-too-broad-exception-in-this-case/
-  except BaseException:
-  print 'error'
-'''
-
-if __name__=='__main__':
+if __name__ == '__main__':
     root_url = 'http://baike.baidu.com/view/21087.html'
     # root_url = 'https://rollbar.com/docs/'
     obj_spider = SpiderMain()
