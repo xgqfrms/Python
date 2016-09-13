@@ -12,7 +12,7 @@ class HtmlOutputer(object):
         self.datas.append(data)
 
     def output_html(self):
-        file_out = open('output.html', 'w')
+        file_out = open('output.html', 'w')  # 'w' 写模式？
         file_out.write('<html>')
         file_out.write('<body>')
         file_out.write('<table>')
