@@ -14,6 +14,10 @@ class HtmlOutputer(object):
     def output_html(self):
         file_out = open('output.html', 'w')
         file_out.write('<html>')
+        file_out.write('<head>')
+        file_out.write('<meta charset=\"UTF-8\">')
+        file_out.write('<link rel=\"stylesheet\" href=\"http://cdn.xgqfrms.xyz/css/common.css.html\"/>')
+        file_out.write('</head>')
         file_out.write('<body>')
         file_out.write('<table>')
 
