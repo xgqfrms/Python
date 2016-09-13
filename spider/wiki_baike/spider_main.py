@@ -26,10 +26,10 @@ class SpiderMain(object):
                 self.urls.add_new_urls(new_urls)
                 self.outputer.collect_data(new_data)
                 print new_data['title']
-                if count == 70:  # 1000
+                if count == 70:  # 1000  ##  79 pages.html Error
                     break
                 count += 1
-            except Exception, e:  # except Exception as e:
+            except Exception as e:  # except Exception, e
                 logging.exception(e)
                 print 'craw error:' + e
         self.outputer.output_html()
