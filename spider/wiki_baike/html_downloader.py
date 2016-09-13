@@ -1,13 +1,9 @@
-import urllib2
-
 __author__ = 'xray'
 # coding: utf8
+import urllib2
 
 
 class HtmlDownloader(object):
-    def __init__(self):
-        self
-
     def download(self, url):
         if url is None:
             return None

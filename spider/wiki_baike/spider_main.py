@@ -20,21 +20,22 @@ class SpiderMain(object):
         while self.urls.has_new_url():
             try:
                 new_url = self.urls.get_new_url()
-                print 'craw %d : %s' % (count, new_url)
+                print 'craw %d : %s' % (count, new_url)  # insert data %d %s
                 html_cont = self.downloader.download(new_url)
                 new_urls, new_data = self.parser.parse(new_url, html_cont)
                 self.urls.add_new_urls(new_urls)
                 self.outputer.collect_data(new_data)
-                if count == 10:  # 1000
+                print new_data['title']
+                if count == 70:  # 1000
                     break
                 count += 1
-            except Exception as e:
+            except Exception, e:  # except Exception as e:
                 logging.exception(e)
-                print 'error'
+                print 'craw error:' + e
         self.outputer.output_html()
-
+        print 'ok, craw execute over!'
 if __name__ == '__main__':
     root_url = 'http://baike.baidu.com/view/21087.htm'
-    # root_url = 'https://rollbar.com/docs/'
     obj_spider = SpiderMain()
     obj_spider.craw(root_url)
+    # root_url = 'https://rollbar.com/docs/'

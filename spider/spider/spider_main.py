@@ -1,13 +1,15 @@
-#coding:utf8
 
+# coding:utf8
 from spider import url_manager
 from spider import html_downloader
 from spider import html_parser
 from spider import html_outputer
+import logging
+
 
 class SpiderMain(object):
     def __init__(self):
-        self.urls=url_manager.UrlManager();
+        self.urls=url_manager.UrlManager()
         self.downloader=html_downloader.HtmlDownloader()
         self.parser=html_parser.HtmlParser()
         self.outputer=html_outputer.HtmlOutputer()
@@ -28,11 +30,11 @@ class SpiderMain(object):
                     break
                 count=count+1
             except Exception,e:
-                 print e
-                 print 'craw failed'
+                 logging.exception(e)
+                 print 'craw failed' + e
         self.outputer.output_html()
         print 'ok'
-if __name__ == "__main__":
-    root_url = "http://baike.baidu.com/view/21087.htm"
+if __name__ == '__main__':
+    root_url = 'http://baike.baidu.com/view/21087.htm'
     obj_spider = SpiderMain()
     obj_spider.craw(root_url)

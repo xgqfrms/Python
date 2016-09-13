@@ -1,9 +1,9 @@
-#coding:utf8
 
+# coding:utf8
 import urllib2
 
-class HtmlDownloader(object):
 
+class HtmlDownloader(object):
      def download(self, url):
         if url is None:
             return None
@@ -11,5 +11,4 @@ class HtmlDownloader(object):
         response = urllib2.urlopen(url)
         if response.code != 200:
             return None
-
         return response.read()
