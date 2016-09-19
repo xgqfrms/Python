@@ -1,5 +1,4 @@
-__author__ = 'xray'
-
+# coding: utf8
 
 # TempConvert.py
 val = input("请输入带温度表示符号的温度值(例如: 32C): ")
