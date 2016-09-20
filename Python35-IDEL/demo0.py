@@ -10,17 +10,3 @@ elif val[-1] in ['F', 'f']:
     print("转换后的温度为: %.2fC" % c)
 else:
     print("输入有误")
-
-('\n'
- '   # elif !== else if\n'
- '   #_*_ coding:cp936_*_\n'
- '## coding: utf8\n'
- '## coding: gbk\n'
-)
-
-'''
-   # elif !== else if
-   #_*_ coding:cp936_*_
-## coding: utf8
-## coding: gbk
-'''
