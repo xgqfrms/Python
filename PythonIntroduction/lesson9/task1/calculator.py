@@ -1,7 +1,7 @@
 """
 This module contains Calculator class
 """
-
+import my_module
 
 class Calculator:
     def __init__(self):

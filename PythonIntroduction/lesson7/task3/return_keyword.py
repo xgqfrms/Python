@@ -9,12 +9,13 @@ def fib(n):
     Return a list containing the Fibonacci series up to n."""
     result = []
     a = 0
-    b = initialize variable b
+    b = 1
     while a < n:
-        result.append(a)
-        tmp_var = b
-        update variable b
-        update variable a
+        result.append(a)  # 0 1
+        tmp_var = b  # 1 1
+        b = a + b  # 1
+        a = tmp_var  # 0
+        # print(a)
     return result
 
 print(fib(10))
