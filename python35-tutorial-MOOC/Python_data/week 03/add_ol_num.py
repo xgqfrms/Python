@@ -4,6 +4,7 @@ __author__ = 'xray'
 
 # filename: rev_copy.py
 f1 = open('./data/company.txt', 'r')
+# f1 = open('./project01/wind.txt', 'r')
 c_Names = f1.readlines()
 for i in range(0, len(c_Names)):
     c_Names[i] = str('<' + str(i + 1) + '> \n') + c_Names[i]
