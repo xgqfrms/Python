@@ -7,8 +7,9 @@ var co = require('co')
 var request = require('superagent')
 var Gif = require('./storage')
 
-var homeUrl = 'http://m.lovefou.com/dongtaitu/'
-var BASE = 'http://m.lovefou.com'
+var homeUrl = https://rollbar.com/docs/'
+var BASE = 'https://rollbar.com'
+
 
 class Lovefou {
 
