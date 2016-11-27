@@ -1,0 +1,152 @@
+第三周 数据获取与表示单元测试查看帮助返回
+测验的提交截止时间已过，你可以作为自我学习进行测验，但是提交的结果将无法获得学分。
+ 倒计时： 14:51
+1单选(1分)
+在以下open语句中哪一项无法对文件test.txt进行内容删除或修改？
+
+A.
+fp = open('test.txt', 'r+')
+
+B.
+fp = open('test.txt', 'r')
+
+C.
+fp = open('test.txt', 'w')
+
+D.
+fp = open('test.txt', 'a')
+2单选(1分)
+在当前目录存在文本文件test.txt，内容是：
+Life is short, you need Python.
+Simple is better than complex.
+执行语句
+fp = open('test.txt', 'r+')
+fp.seek(15)
+print fp.readline()
+输出得到的结果是以下哪一项？
+
+
+A.
+输出为空。
+
+B.
+Simple is better than complex.
+
+C.
+you need Python.
+
+D.
+Life is short, you need Python.
+3单选(1分)
+对于序列numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]，以下相关操作和对应输出正确的是哪一项？
+
+A.
+>>> numbers[-2:]
+[9, 10]
+
+B.
+>>> numbers[0: -1]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+C.
+>>> numbers[0: 2]
+[1, 2, 3]
+
+D.
+>>> numbers[0::3]
+[1, 3, 5, 7, 9]
+4单选(1分)
+以下对于序列的相关操作中正确的输出结果是哪一项？
+
+A.
+>>> word = 'cloud'; word[5]
+'d'
+
+B.
+>>> print 'Merry Xmas ' + 12.25
+Merry Xmas 12.25
+
+C.
+>>> [5] * 2
+[10]
+
+D.
+>>> word = 'cloud'; print min(word)
+c
+5多选(1分)
+以下对于列表的相关操作中哪些项有正确的输出结果？
+
+A.
+>>> words = ['Life', 'is', 'short', 'you', 'need', 'Python'] 
+>>> words.index('you')
+4
+
+B.
+>>> x = [2, 3, 0, 4, 1]
+>>> x.sort()
+>>> print x
+[0, 1, 2, 3, 4]
+
+C.
+>>> print list('Life is short, you need Python.').count('is')
+1
+
+D.
+>>> language = list('PHP'); 
+>>> language[1:] = 'ython'; 
+>>> print language 
+['P', 'y', 't', 'h', 'o', 'n']
+6多选(1分)
+以下哪些方式可以查看字符串提供的方法？
+
+A.
+help(str)
+
+B.
+str?
+
+C.
+help str
+
+D.
+dir(str)
+7判断(1分)
+判断如下陈述是否正确？
+使用open()函数打开文件并调用write()函数写文件时，由于默认采用缓冲区，操作系统不会立刻把待写入的数据写入磁盘，而是先存储到内存缓冲区，如果使用不当，有可能导致部分数据未写入到磁盘中而丢失。
+
+
+A.
+
+B.
+8判断(1分)
+判断如下陈述是否正确？   
+对于一个用“r+”模式打开的文件，利用f.seek(0, 0)可以让文件指针回到文件头部，此时如果执行f.write('I am Yeliangchen')语句并正常关闭文件可以将字符串“I am Yeliangchen”插入到文件头部。
+
+A.
+
+B.
+9判断(1分)
+判断如下陈述是否正确？
+所有标准序列操作，例如分片索引等，对字符串都是适用的，但是字符串都是不可变的，要注意不能对分片数据进行赋值。
+
+
+A.
+
+B.
+10填空(1分)
+有两个列表分别是name和score，其长度相同为10，分别是存储字符串和整数，各个位置一一对应，例如name[2]对应于score[2] ，对于以下代码，请在横线处填入格式运算符，要求格式是“2位长度整数,8位长度字符串: 3位长度整数”例如输出如下：
+ 5,   Jacky: 90
+for i in range(10):
+    print '______' % (i, name[i], score[i])
+请填入总长度在11个字符以内的格式化字符串
+
+请输入答案
+11填空(1分)
+请输出如下命令的执行结果：
+my_list = [s.lower() for s in 'Life is short, you need Python.'.split(' ')]
+print 'short' in my_list
+print my_list[5]
+
+请输入答案
+
+

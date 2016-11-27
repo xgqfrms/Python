@@ -1,0 +1,30 @@
+ 经典问题的Python编程
+按公式：C= 5/9×(F-32) ，将华氏温度转换成摄氏温度，并产生一张华氏0～300度与对应的摄氏温度之间的对照表（每隔20度输出一次）
+验证命题：如果一个三位整数是37的倍数，则这个整数循环左移后得到的另两个3位数也是37的倍数。（注意验证命题的结果输出方式，只要输出命题为真还是假即可，而非每一个三位数都有一个真假的输出）
+Pigmon_袁胜童鞋推荐了Python基础编程练习网站，大家可以参考，谢谢Pigmon_袁胜
+http://www.runoob.com/python/python-100-examples.html
+
+
+
+1
+理解程序的功能，若输入126和2，则程序的运行结果是哪一个选项？
+def foo(num,base):
+    if(num >= base):
+        foo(num/base , base)
+    print num%base,
+     
+numA = input()
+numB = input()
+foo(numA,numB)
+
+A.
+113
+
+B.
+1 1 1 1 1 1 0
+
+C.
+128
+
+D.
+1 1 1 1 1 1 1

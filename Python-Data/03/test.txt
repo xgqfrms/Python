@@ -1,0 +1,47 @@
+请完成以下文件综合编程迷你项目（提示：可以利用list的insert函数）。
+
+(1) 创建一个文件Blowing in the wind.txt，其内容是：
+
+How many roads must a man walk down
+
+Before they call him a man
+
+How many seas must a white dove sail
+
+Before she sleeps in the sand
+
+How many times must the cannon balls fly
+
+Before they're forever banned
+
+The answer my friend is blowing in the wind
+
+The answer is blowing in the wind
+
+(2) 在文件头部插入歌名“Blowin’ in the wind”
+
+(3) 在歌名后插入歌手名“Bob Dylan”
+
+(4) 在文件末尾加上字符串“ 1962 by Warner Bros. Inc.”
+
+(5) 在屏幕上打印文件内容
+
+
+
+
+请完成以下字符串相关的编程小练习 
+1. 使用以下语句存储一个字符串：
+  str = 'My moral standing  is: 0.98765'
+将其中的数字字符串转换成浮点数并输出。  
+（提示：可以使用find方法和字符串切片，提取出字符串中冒号后面的部分，然后使用float函数，将提取出来的字符串转换为浮点数）
+2. 输入一个字符串“I like Python very much 2333 because Python is very cute 666.”，判别该字符串中数字字符和单词的个数，并将第一次出现的Python替换成你偶像的名字并输出新字符串。
+
+
+
+
+
+
+理解引用（共享引用），浅拷贝和深拷贝的关系和区别对于使用列表这种数据结构进行程序设计有重要作用，推荐网络上的一篇简单的说明文档（其中“潜逃”应为“嵌套”）
+https://site.douban.com/136082/widget/notes/6031056/note/188477240/
+
+

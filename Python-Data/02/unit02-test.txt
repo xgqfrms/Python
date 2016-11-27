@@ -1,0 +1,170 @@
+1单选(1分)
+在Python中，以下关于range()和xrange()的描述哪一项是不正确的？
+
+A.
+在Python 2中，range(4)得到的是内容为[1,2,3,4]的list对象。
+
+B.
+在Python 2中，range()返回的是一个list对象，而xrange()返回的是一个生成器。
+
+C.
+在Python 2中，当需要生成很大的数字序列时，xrange()性能比range()性能要优秀，更节省内存。
+
+D.
+在Python 3中，只有range()，返回的不是Python 2中返回的list对象。
+2单选(1分)
+以下哪个语句可以打印出语句“rest apples are less than 9”且仅打印一次？
+
+A.
+apples = 100
+while True:
+    if apples < 9:
+        continue
+        print("rest apples are less than 9")
+    apples -= 9
+
+B.
+apples = 100
+while apples >= 1:
+    if apples < 9:
+        print("rest apples are less than 9")
+        break
+    apples -= 9
+
+C.
+apples = 100
+for a in reversed(xrange(apples)):
+    if a < 9:
+        print("rest apples are less than 9")
+        continue
+
+D.
+apples = 100
+while True:
+    if apples < 9:
+        break
+        print("rest apples are less than 9")
+    apples -= 9
+3单选(1分)
+对于函数
+def test(x):
+    if isinstance(x, list):
+        x.append(4)
+        print x
+    elif isinstance(x, int):
+        x += 1
+        print x
+以下结果中正确的是哪一项？
+
+A.
+>>> x = 3
+>>> test(x)
+>>> 4
+
+B.
+>>> x = 3
+>>> test(x)
+>>> 3
+
+C.
+>>> array = [1, 2, 3]
+>>> test(array)
+>>> [1, 2, 4]
+
+D.
+>>> array = [1, 2, 3]
+>>> test(array)
+>>> [1, 2, 3]
+4单选(1分)
+对于函数
+def location(city, province):
+    print '%s belongs to %s province' % (city, province)
+以下哪一个语句的输出与其他几个不同？
+
+A.
+location(province = 'Jiangsu', city = 'Nanjing')
+
+B.
+location(city = 'Nanjing', province = 'Jiangsu')
+
+C.
+location('Nanjing', 'Jiangsu')
+
+D.
+location('Jiangsu', 'Nanjing')
+5单选(1分)
+定义以下函数，其中f为所需要传入的函数。
+def test(f, a, b): 
+    print(f(a, b))
+则执行语句 test((lambda x,y: x ** 3 + y), 2, 3)的输出结果是哪个选项？
+
+A.
+8
+
+B.
+11
+
+C.
+10
+
+D.
+9
+6多选(1分)
+以下关于Python的函数执行控制判断说法中正确的有哪些？
+
+A.
+在while和for循环中，break语句的作用是终止当前循环，重新进入循环。
+
+B.
+布尔运算符有一个很有趣的短路逻辑特性，即表达式x and y当x为假时，会直接返回False，不会去计算y的值。
+
+C.
+在while和for循环中，continue语句的作用是停止当前循环，继续循环体下面的语句。
+
+D.
+if语句执行有一个特点，它是从上往下判断，如果在某个判断上是True，则执行该判断对应的语句，忽略剩下的elif和else。
+7多选(1分)
+以下关于Python的函数执行控制判断说法中正确的有哪些选项？
+
+A.
+标准的布尔值为0（表示假）和1（表示真），实际上语句True==1的结果就是True。
+
+B.
+None,0, [],{} 这些值在作为布尔表达式的时候，都会被解释器看作假False。
+
+C.
+is作为比较运算符，x is y其含义是比较x是否是y的子类。
+
+D.
+对于不兼容类型的比较，例如整型和字符串，在Python 2中是可以执行的，当然这从数学含义上看是没有意义的，所以在Python 3中比较不兼容类型的对象已经不再可行。
+8判断(1分)
+判断如下陈述是否正确？
+if语句代码块必须缩进，且必须是4个空格。
+
+A.
+
+B.
+9填空(1分)
+定义函数如下：
+def my_power(x, n = 2):
+    s = 1
+    while n > 0:
+        n -= 1
+        s = s * x
+    return s
+对该函数传递参数，调用my_power(3, 3)后运行结果是什么？
+
+请输入答案
+10填空(1分)
+写出程序的结果。
+def proc(n ):
+    if (n<0):
+        print '-', 
+        n = -n
+    if (n / 10):
+        proc(n / 10 )
+    print n % 10,
+ 
+proc(-345 )
+
+请输入答案

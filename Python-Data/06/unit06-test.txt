@@ -1,0 +1,88 @@
+第六周 Python高级数据处理与可视化单元测验查看帮助返回
+测验的提交截止时间已过，你可以作为自我学习进行测验，但是提交的结果将无法获得学分。
+ 倒计时： 19:52
+1判断(1分)
+判断如下陈述是否正确？
+K-means是一种聚类学习算法，K代表用户最初在空间中选定的中心数量。
+
+
+A.
+
+B.
+2填空(1分)
+如下的题目都是基于第五周获取雅虎网站财经上市公司股票的历史数据的程序，以微软的数据为示例，如下的数据存放于quotesdfMS14中。
+Table 1 得到微软在2014年度的股票历史数据
+
+填写以下内容（两个答案之间用一个半角分号分隔），使得绘制在2014年整年内（即1月1日至12月31日）微软股票每个月开盘平均价格的走势。
+Table 2 在Table 1基础上，进行平均每个月开盘价格走势图的绘制
+import matplotlib.pyplot as plt
+openMS = quotesdfMS14.groupby('month').___().____
+listopen = []
+for i in range(1, 13):
+    listopen.append(openMS[i])
+plt.plot(openMS.index, listopen)
+
+请输入答案
+3单选(1分)
+以下哪一个选项的命令可以绘制出符合第2题数据的如下的红色虚线图案？
+
+
+A.
+plt.bar(openMS.index, openMS.values)
+
+B.
+plt.bar(openMS.index, listopen,'r-.*')
+
+C.
+plt.plot(openMS.index, listopen,'rs')
+
+D.
+ plt.plot(openMS.index, openMS.values,'-.*r')
+4判断(1分)
+判断如下陈述是否正确？
+Matplotlib是Python用于绘制2D图形的库，其是pandas用于绘制图表的基础依赖库，pandas可以利用ndarray对象数据组织特点来创建标准图表的高级绘图方法。
+
+
+A.
+
+B.
+5填空(1分)
+根据第2题的所填内容，实际上我们可以根据如下的命令同样也可以进行图标绘制。
+plt.plot(openMS.index, openMS.values)
+
+通过命令________可以得到openMS对象的类型是pandas.core.series.Series，plt.plot 实际上是库matplotlib的方法，其后跟的参数openMS.index和openMS.values分别代表绘制图表时的x轴和y轴。而利用openMS.plot()进行绘图 实际上是调用了库 ________ 的自带方法(两个答案之间请用一个半角分号分隔)。
+
+请输入答案
+6填空(1分)
+在Table1和Table2的代码基础上，添加如下代码，得到INTEL公司2014年一整年的股票开盘价折线图，请在相应位置填入答案。
+Table 3 在Table1和Table2代码基础上，获得Intel公司的2014整年的开盘价
+quotesINT = quotes_historical_yahoo_ochl('INTC', start, today) 
+quotesdfINT = pd.DataFrame(quotesINT, columns= attributes)
+list = []
+for i in range(0, len(quotesINT)):
+    x = date.fromordinal(int(quotesINT[i][0]))
+    y = date.strftime(x, '%y/%m/%d')
+    list.append(y)
+quotesdfINT.index = list
+quotesdfINT = quotesdfINT.drop(['date'], axis = 1)
+list = []
+quotesdfINT14 = quotesdfINT['14/01/01':'14/12/31']
+quotesdfINT14.____.plot()
+
+请输入答案
+7填空(1分)
+在Table1, 2和3的代码基础上，添加如下代码，用折线图比较Microsoft和Intel在2014年一整年的股票开盘价走势。
+compdf = pd.DataFrame()
+compdf['MS'] = quotesdfMS14.open
+compdf['INTEL'] = quotesdfINT14.open
+compdf.plot(____='open price of MS and INTEL')
+
+请输入答案
+8填空(1分)
+散点图（Scatter plot）是观察两个一维数据序列之间关系的有效手段，请填写空格以得到微软在2014整年中每日收盘价与开盘价之差与当日成交量之间的散点图。
+plt.____(quotesdfMS14.close - quotesdfMS14.open, quotesdfMS14.volume)
+
+
+请输入答案
+
+

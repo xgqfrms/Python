@@ -1,0 +1,153 @@
+第七周 面向对象和图形用户界面单元测验查看帮助返回
+测验的提交截止时间已过，你可以作为自我学习进行测验，但是提交的结果将无法获得学分。
+ 倒计时： 19:54
+1判断(1分)
+请判断如下陈述是否正确？
+数据封装、继承和多态是面向对象的三大特点。实例是根据类创建出来的一个个具体的“对象”，各个实例拥有的数据在某种程度上是互相独立的。
+
+A.
+
+B.
+2判断(1分)
+请判断如下陈述是否正确？
+在Python中，类中的方法与普通函数相比，有一个非常明显的区别，需要传递一个额外的第一个参数，但是在调用类中的该方法时，不需要为这个参数赋值。一般而言，推荐将这个参数使用名称写为myself 。
+
+A.
+
+B.
+3单选(1分)
+__init__并不相当于Java或者C#中的构造函数，执行该方法时，实例已经构造出来了。下列选项中说法错误的是：
+
+A.
+__init__并不相当于Java或者C#中的构造函数，执行该方法时，实例已经构造出来了。
+
+B.
+子类可以不重载__init__方法，实例化子类时，会自动调用父类中__init__方法。
+
+C.
+子类可以重载__init__,但仍然会隐式地去调用父类中的__init__方法。
+
+D.
+与__init__方法一样，还有一个特殊的方法__del__，在对象消逝的时候被调用。对象消逝即对象不再被使用，它所占用的内存将返回给系统作它用有点类似C++中的析构函数。
+4填空(1分)
+填写如下代码，定义一个类Dog。
+Table 1 Dog类
+1：class Dog(object):
+2：    def __init__(self, name, size):
+3：        self.name = name
+4：        self.__size = size
+ 
+5：    def getInfo(self):
+6：        print "This dog's name: %s" % self.name 
+7：        print "This dog’s size: %s" % self.__size
+>>> dog = Dog('mimi', '_____')
+>>> dog.getInfo()
+This dog's name: mimi
+This dog's size: small
+
+请输入答案
+5填空(1分)
+在上一填空题的基础上，我们定义Dog类的父类Animal。
+class Animal(object):
+    def __init__(self, name):
+        self.name = name
+ 
+    def getInfo(self):
+        print "This animal's name: %s" % self.name
+ 
+    def sound(self):
+        print "The sound of this animal goes?"
+如果要继承该Animal类，前一填空题中的Table1中的Dog类需要修改一行，需要修改第1 行，修改成___________________（注意书写完整），如果调用dog.sound () ，该方法是否可以运行？（如果可以，请填写输出；如果不可以，请填写字母F）____________。（两个答案之间用一个半角分号分隔）
+
+请输入答案
+6填空(1分)
+请定义子类Cat重载父类Animal的sound方法，填写如下横线上的内容。
+class Cat(Animal):
+    def sound(self):
+        print "The sound of cat goes meow ~"
+ 
+>>> cat = Cat('kawaii')
+>>> cat. getInfo()
+____________________
+>>> cat.sound()
+The sound of cat goes meow ~
+
+请输入答案
+7单选(1分)
+在前面几题的基础上，有子类Dog和Cat继承了父类Animal，如下空格的输出是以下哪个选项？
+dog = Dog('coco','small'); cat = Cat('kawaii')
+>>> isinstance(dog, Animal)
+___________
+>>> isinstance(cat, Animal)
+___________
+>>> isinstance(dog, Dog)
+___________
+>>> isinstance(dog, Cat)
+____________
+
+A.
+True True False False
+
+B.
+True True True False
+
+C.
+True False False True
+
+D.
+True True True True
+8单选(1分)
+以下关于GUI库描述错误的是哪一个选项？
+
+A.
+用户的动作触发GUI工具包的事件，任何应用中，程序都会对于这些事件进行反应。在wxPython中，事件处理函数使用Together方法添加到组件上。
+
+B.
+Python有很多GUI平台可以选用，除了wxPython，还有半标准的Tkinter，跨平台的PyQt等等。
+
+C.
+通过制定几何坐标，可以直接将组件放置在想要的位置，wxPython一般采用灵活的布局解决方案 sizer，sizer是一种屏幕布局算法。
+
+D.
+GUI可以让程序更友好，虽然并不是所有程序都需要，但是当程序和用户交互时，GUI可能会有所帮助。
+9单选(1分)
+本程序可以直接运行，并得到一个GUI窗口，请选择如下代码注释后面的空格里填入描述这一行所做的事情的顺序。
+import wx
+class MyWindow(wx.App):
+    def OnInit(self):
+        frame = wx.Frame(None,title="Hello world",pos=(0,0))
+        frame.Show()
+        return True
+    
+if __name__=='__main__':
+    app = MyWindow()
+    app.MainLoop()
+#____
+#____
+#____
+ 
+ 
+ 
+ 
+ 
+
+#____
+#____
+
+A．	进入这个应用程序的主事件循环
+B．	继承wxPython应用程序类
+C．	导入必须的wx模块
+D．	定义一个应用程序的初始化方法
+E．	创建一个应用程序类的实例
+
+A.
+CBDAE
+
+B.
+CDBEA
+
+C.
+CBEDA
+
+D.
+CBDEA

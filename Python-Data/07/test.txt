@@ -1,0 +1,19 @@
+1
+请填写代码使得如下的程序能够实现在程序Frame中按下鼠标左键时，在鼠标按下的位置出现一个Button，如下图所示(为保证答案唯一性，请尽可能填写较少的字符串答案，请将结果分间用一个半角分号分隔)。
+
+import wx
+class MyFrame(wx.Frame):
+    def __init__(self, parent):
+        wx.Frame.__init__(self,____,title='Hello Python')
+        self.panel = wx.Panel(self)
+        self.panel.Bind(wx.EVT_LEFT_UP, self.OnClick)
+ 
+    def OnClick(self, event):
+        posm = event.GetPosition()
+        wx._____(_____,label="Hi~~~",pos = (posm.x, posm.y))
+ 
+if __name__=='__main__':
+    app = wx.App()
+    frame = MyFrame(None)
+    frame.Show(True)
+    app.MainLoop()

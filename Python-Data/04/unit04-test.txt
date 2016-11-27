@@ -1,0 +1,123 @@
+第四周 强大的数据结构和Python扩展库单元测验查看帮助返回
+测验的提交截止时间已过，你可以作为自我学习进行测验，但是提交的结果将无法获得学分。
+ 倒计时： 14:55
+1单选(1分)
+以下不能作为字典的key的是哪一个选项？
+
+A.
+1001
+
+B.
+'name'
+
+C.
+listA = ['className']
+
+D.
+tupleA = (123)
+2单选(1分)
+以下对集合的操作中结果错误的是哪一个选项？
+a = {1, 2, 3, 4}
+b = {2, 3, 5, 6}
+
+A.
+>>> a.intersection(b) == a & b
+True
+
+B.
+>>> a.union(b) == a | b
+True
+
+C.
+>>> a.difference(b) == a - b
+True
+
+D.
+>>> a.issubset(b)
+True
+3判断(1分)
+判断如下陈述是否正确？
+字典自带的copy函数实际上是浅拷贝（shallow copy），对于字典的每一个键值对，保有值本身，而不是新开辟内存存储每一个键值对的副本。
+
+
+A.
+
+B.
+4判断(1分)
+dict2 = dict1 操作将dict2和dict1关联对应到同一个字典，执行例如dict1[‘score’] = 99的操作后，dict2中的内容会受影响。
+
+A.
+
+B.
+5判断(1分)
+判断如下陈述是否正确？
+Python中的集合set与数学概念上无序和无重复元素的集合所对应。
+
+
+A.
+
+B.
+6填空(1分)
+请输出如下命令的运算结果：sorted(set('You need Python.'))[2]。（直接写出相应的字符即可，不用单引号或双引号等符号标记）
+
+请输入答案
+7填空(1分)
+请在下面空格处填写答案。
+>>> import numpy as np
+>>> a = np.array([(1, 2, 3), (4, 5, 6), (7, 8, 9)])
+>>> a.shape
+(______)
+
+请输入答案
+8填空(1分)
+请在下面空格处填写答案。
+>>> import numpy as np
+>>> a = np.array([(1, 2, 3), (4, 5, 6), (7, 8, 9)])
+>>> a[[2]].sum()
+_______
+
+请输入答案
+9填空(1分)
+请在下面空格处填写答案（答案之间用一个空格分隔）。
+>>> from pandas import Series
+>>> sa = Series(['a', 'b', 'c'], index = [0, 1, 2])
+>>> sb = Series(['a', 'b', 'c'])
+>>> sc = Series(['a', 'c', 'b'])
+>>> sa.equals(sc)
+____
+>>> sb.equals(sa)
+____
+
+请输入答案
+10填空(1分)
+请在下面空格处填写答案。
+>>> from pandas import Series
+>>> sa = Series(['a', 'b', 'c'], index = [0, 1, 2])
+>>> sb = Series(['a', 'b', 'c'])
+>>> sc = Series(['a', 'c', 'b'])
+>>> sa*3 + sc*2
+0      aaaaa
+1      ______
+2       cccbb
+
+
+请输入答案
+
+
+
+
+
+
+字典编程小例
+
+依照学术诚信条款，我保证此回答为本人原创，所有回答中引用的外部材料已经做了出处标记。
+（4分）
+有5名某界大佬xiaoyun、xiaohong、xiaoteng、xiaoyi和xiaoyang，其QQ号分别是88888、5555555、11111、1234321和1212121，用字典将这些数据组织起来。编程实现以下两个功能：
+（1）用户输入某一个大佬的姓名后可以输出其QQ号，如果输入的姓名不在字典中则返回提示信息并允许再次输入；
+（2）寻找所有有QQ靓号（5位数或小于5位数）的大佬，输出所有姓名。
+其中Python 2中提示输入和输出结果的两句提示语请使用如下形式：
+name = raw_input("Please input the name:")
+print  "Who has the nice QQ number?"
+其中Python 3中提示输入和输出结果的两句提示语请使用如下形式：
+name = input("Please input the name:")
+print("Who has the nice QQ number?")

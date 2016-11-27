@@ -1,0 +1,34 @@
+
+简单的输入输出：编程实现输入姓、名的提示语并接受用户输入，并单独显示姓、名和全名，执行效果如下所示：
+Input your surname:ZHANG
+ 
+Input your firstname:Dazhuang
+Your surname is:
+ZHANG
+Your firstname is:
+Dazhuang
+Your full name is:
+ZHANG Dazhuang
+
+在看参考程序之前你成功了吗？
+
+参考答案：
+Python 2.7写法
+surname = raw_input('Input your surname:')
+firstname = raw_input('Input your firstname:')
+print 'Your surname is:'
+print surname
+print 'Your firstname is:'
+print firstname
+print 'Your full name is:'
+print surname,firstname
+
+Python 3.5写法
+surname = input('Input your surname:')
+firstname = input('Input your firstname:')
+print('Your surname is:')
+print(surname)
+print('Your firstname is:')
+print(firstname)
+print('Your full name is:')
+print(surname,firstname)

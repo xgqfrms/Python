@@ -1,0 +1,35 @@
+代码格式如下：
+def monisen(no):
+    … …
+    return  xxx
+
+print monisen(input())
+注意：此处请用“monisen(input())”调用函数（如果是用Python 3，注意input()函数的返回类型是str），
+不需要输入数据，数据由系统预设提供的测试用例提供。
+
+
+
+1寻找第n个默尼森数。
+代码格式如下：
+def prime(num):
+    ...
+def monisen(no):
+    … …
+    return  xxx
+
+print monisen(input())  #此处不需要自己输入，只要写这样一条语句即可，主要完成monisen()函数
+# print(monisen(int(input())))    in Python 3.x（5分）
+题目内容：找第n个默尼森数。P是素数且M也是素数，并且满足等式M=2**P-1，则称M为默尼森数。例如，P=5，M=2**P-1=31，5和31都是素数，因此31是默尼森数。
+
+输入格式:用input()函数输入，注意如果Python 3中此函数的返回类型
+
+
+输出格式：int类型
+
+
+输入样例：4
+
+
+输出样例：127
+
+时间限制：500ms内存限制：32000kb

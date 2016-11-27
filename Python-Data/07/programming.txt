@@ -1,0 +1,595 @@
+Python2.7:
+quotespd.py
+from matplotlib.finance import quotes_historical_yahoo_ochl
+from datetime import date
+from datetime import datetime
+import pandas as pd
+import numpy
+import scipy.stats
+import matplotlib.pyplot
+ 
+def _wxdate2pydate(date):
+     import datetime
+     if date.IsValid():
+          ymd = map(int, date.FormatISODate().split('-'))
+          return datetime.date(*ymd)
+     else:
+          return None
+ 
+def PlotData(code, start, end, list):
+    start_date = _wxdate2pydate(start)
+    end_date = _wxdate2pydate(end)
+    print code
+    print start_date
+    print end_date
+    quotes = quotes_historical_yahoo_ochl(code, start_date, end_date)
+    fields = ['date','open','close','high','low','volume']
+    list1 = []
+    for i in range(0,len(quotes)):
+        x = date.fromordinal(int(quotes[i][0]))
+        y = datetime.strftime(x,'%Y-%m-%d')
+        list1.append(y)
+    print list1
+     
+    quotesdf = pd.DataFrame(quotes, index = list1, columns = fields)
+    quotesdf = quotesdf.drop(['date'], axis = 1)
+    quotesdftemp = pd.DataFrame()
+    print quotesdftemp
+  
+    for i in range(0,len(list)):
+        quotesdftemp[list[i]] = quotesdf[list[i]]
+    print "ready to plot"
+    quotesdftemp.plot(marker='o')
+
+
+
+dji.py
+#import wxversion
+#wxversion.select("2.8")
+import wx
+import urllib
+import re
+ 
+from custom_dialogs import ConfigureData
+ 
+class StockFrame(wx.Frame):
+    def __init__(self, title):
+        wx.Frame.__init__(self, None, title=title, size=(500,600))
+ 
+        self.CreateStatusBar()
+ 
+        menuBar = wx.MenuBar()
+ 
+        filemenu= wx.Menu()
+        menuBar.Append(filemenu,"&File")
+         
+        menuAbout = filemenu.Append(wx.ID_ABOUT, "&About"," Information about this program")
+        filemenu.AppendSeparator()
+ 
+        menuQuit = filemenu.Append(wx.ID_EXIT,"Q&uit"," Terminate the program")
+        self.Bind(wx.EVT_MENU, self.OnAbout, menuAbout)
+        self.Bind(wx.EVT_MENU, self.onQuit, menuQuit)
+        self.SetMenuBar(menuBar)
+ 
+        panel = wx.Panel(self)
+ 
+        codeSizer = wx.BoxSizer(wx.HORIZONTAL)
+        labelText = wx.StaticText(panel, label="Stock Code:")
+        codeSizer.Add(labelText, 0, wx.ALIGN_BOTTOM)
+        codeSizer.Add((10, 10))
+        addressText = wx.TextCtrl(panel, value='AAPL')
+        addressText.SetSize(addressText.GetBestFittingSize())
+        codeSizer.Add(addressText)
+        #self.addressText.Layout()
+        #self.control.Show(True)
+         
+        self.list = wx.ListCtrl(panel, wx.NewId(), style=wx.LC_REPORT)
+        self.list.InsertColumn(0,"Symbol")
+        self.list.InsertColumn(1,"Name")
+        self.list.InsertColumn(2,"Last Trade")  
+ 
+        pos = self.list.InsertStringItem(0,"--")
+        self.list.SetStringItem(pos,1,"loading...")
+        self.list.SetStringItem(pos,2,"--")  
+        self.Bind(wx.EVT_LIST_ITEM_ACTIVATED, self.OnClick, self.list)
+         
+        vsizer = wx.BoxSizer(wx.VERTICAL)
+        vsizer.Add(codeSizer, 0, wx.ALL, 10)
+        vsizer.Add(self.list, -1, wx.ALL | wx.EXPAND, 10)
+        #panel.SetSizer(self.sizer)
+ 
+        hsizer = wx.BoxSizer(wx.HORIZONTAL)
+        hsizer.Add((10, 10))
+        buttonQuit = wx.Button(panel, -1, "Quit")
+        self.Bind(wx.EVT_BUTTON, self.onQuit, buttonQuit)
+        buttonQuit.SetDefault()
+        hsizer.Add(buttonQuit, 1)
+ 
+        buttonRefresh = wx.Button(panel, -1, "Refresh")
+        self.Bind(wx.EVT_BUTTON, self.onRefresh, buttonRefresh)
+        hsizer.Add(buttonRefresh, 1)
+        #self.buttonGroupSizer.Layout()
+        #self.buttonGroupSizer.Fit(self)
+        vsizer.Add(hsizer, 0, wx.ALIGN_BOTTOM)
+        #self.sizer.Layout()
+        #vsizer.Fit(self)
+ 
+        #self.buttonGroupSizer.Fit(self)
+        ###self.SetSizer(self.buttonGroupSizer)
+        panel.SetSizerAndFit(vsizer)        
+        panel.Layout()        
+        #self.Show(True)
+         
+        '''frameSizer = wx.BoxSizer(wx.VERTICAL)
+        frameSizer.Add(panel)
+        self.SetSizerAndFit(frameSizer)
+        self.Layout()
+        self.Fit()'''
+ 
+    def setData(self, data):
+        self.list.ClearAll()
+        self.list.InsertColumn(0,"Symbol")
+        self.list.InsertColumn(1,"Name")
+        self.list.InsertColumn(2,"Last Trade")  
+        pos = 0
+        for row in data:
+            # This one looks neater but cannot replace the "&amp;"
+            #self.list.Append(row)            
+            pos = self.list.InsertStringItem(pos+1, row[0])
+            self.list.SetStringItem(pos, 1, row[1].replace("&amp;", "&"))
+            self.list.SetColumnWidth(1, -1)
+            self.list.SetStringItem(pos, 2, row[2])
+            if (pos % 2 == 0):
+                # Get the item at a specific index:
+                #item = self.list.GetItem(pos)
+                self.list.SetItemBackgroundColour(pos, (134, 225, 249))
+                # Set new look and feel back to the list
+                #self.list.SetItem(item)
+        self.FitInside()
+        pass
+         
+    def GetAllSelected(self):
+        selection = []
+ 
+        # start at -1 to get the first selected item
+        current = -1
+        while True:
+            next = self.GetNextSelected(current)
+            if next == -1:
+                return selection
+ 
+            selection.append(self.list.GetItemText(next))
+            current = next
+ 
+    def GetNextSelected(self, current):
+        return self.list.GetNextItem(current,
+                                wx.LIST_NEXT_ALL,
+                                wx.LIST_STATE_SELECTED)
+ 
+    def OnClick(self, event):
+        codes = self.GetAllSelected()
+        print "code in DJI", codes
+        ConfigureData(codes)
+         
+    def OnAbout(self, event):
+        dlg = wx.MessageDialog( self, "A small text editor", "About Sample Editor", wx.OK)
+        dlg.ShowModal()
+        dlg.Destroy()
+ 
+    def onQuit(self, event):
+        self.Close()
+        self.Destroy()
+         
+    def onRefresh(self, event):
+        pass
+ 
+app = wx.App(False)
+ 
+top = StockFrame("Dow Jones Industrial Average (^DJI)")
+top.Show(True)
+ 
+# url below update:   https://hk.finance.yahoo.com/q/cp?s=%5EDJI
+str = urllib.urlopen('https://hk.finance.yahoo.com/q/cp?s=%5EDJI').read()
+# dStr = dBytes.decode()    # in Python 3
+m = re.findall("<tr><td class=\"yfnc_tabledata1\"><b><a href=\".*?\">(.*?)</a></b></td><td class=\"yfnc_tabledata1\">(.*?)</td>.*?<b>(.*?)</b>.*?</tr>", str)
+if m:
+    #print m
+    #print"\n"
+    print len(m)
+    top.setData(m)
+else:  
+    wx.MessageBox('Download failed.', 'Message',  wx.OK | wx.ICON_INFORMATION)
+ 
+app.MainLoop()
+
+custom_dialogs.py
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+ 
+'''
+wxPython
+'''
+ 
+import wx
+import quotespd
+ 
+class ChangeDepthDialog(wx.Dialog):
+     
+    def __init__(self, *args, **kw):
+        super(ChangeDepthDialog, self).__init__(*args, **kw) 
+ 
+        self.InitUI()
+        self.SetSize((350, 200))
+        self.SetTitle("Configure Data")
+         
+    def InitUI(self):
+        self.option_list = ['open', 'close', 'high', 'low', 'volume']
+         
+        pnl = wx.Panel(self)
+        vbox = wx.BoxSizer(wx.VERTICAL)
+        hbox = wx.BoxSizer(wx.HORIZONTAL)
+ 
+        sb = wx.StaticBox(pnl, label='Data Range')
+        sbs = wx.StaticBoxSizer(sb, orient=wx.VERTICAL) 
+         
+        sbs.Add(wx.StaticText(pnl, -1, r'Start Date'))
+        self.dc_start = wx.DatePickerCtrl(pnl, -1, style=wx.DP_DROPDOWN, pos=(130, 70))
+        sbs.Add(self.dc_start)
+        sbs.Add(wx.StaticText(pnl, -1, r'End Date'))
+        self.dc_end = wx.DatePickerCtrl(pnl, -1, style=wx.DP_DROPDOWN, pos=(330, 70))
+        sbs.Add(self.dc_end)
+        pnl.SetSizer(sbs)
+ 
+        pnl2 = wx.Panel(self)
+        sb2 = wx.StaticBox(pnl2, label='Data Set')
+        sbs2 = wx.StaticBoxSizer(sb2, orient=wx.VERTICAL)        
+        self.cb_list = []
+        for l in self.option_list:
+            cb = wx.CheckBox(pnl2, label = l) # originally 3 params: style=wx.RB_GROUP
+            sbs2.Add(cb)
+            self.cb_list.append(cb)
+         
+          
+        pnl2.SetSizer(sbs2)
+        hbox.Add(pnl)
+        hbox.Add(pnl2)
+        
+        hbox2 = wx.BoxSizer(wx.HORIZONTAL)
+        okButton = wx.Button(self, label='Ok')
+        closeButton = wx.Button(self, label='Close')
+        hbox2.Add(okButton)
+        hbox2.Add(closeButton, flag=wx.LEFT, border=5)
+ 
+        vbox.Add(hbox, proportion=1)
+        vbox.Add(hbox2, 
+            flag=wx.ALIGN_CENTER|wx.TOP|wx.BOTTOM, border=10)
+ 
+        self.SetSizer(vbox)
+         
+        okButton.Bind(wx.EVT_BUTTON, self.OnClose)
+        closeButton.Bind(wx.EVT_BUTTON, self.OnClose)
+     
+    def ShowDialog(self, code1):
+        self.code = code1
+        self.Show(True)
+         
+    def OnClose(self, e):
+        l = []
+        for i, cb in enumerate(self.cb_list):
+            if cb.GetValue():
+                l.append(self.option_list[i])
+        print l
+        print self.code
+        print self.dc_start.GetValue(), self.dc_end.GetValue()
+        quotespd.PlotData(code = self.code, start = self.dc_start.GetValue(), end = self.dc_end.GetValue(), list = l)
+        #self.Destroy()
+ 
+def ConfigureData(codes):
+    print "codes in dialogs", codes
+    ex = wx.App()
+    print "retrived the first code", codes[0]
+    cd = ChangeDepthDialog(None)
+    cd.ShowDialog(codes[0])
+    ex.MainLoop()
+
+
+
+
+Python 3.5（由于wxPython未更新Python3版本，需要使用wxPython Phoenix，两者有部分API不同）
+关于wxPython Phoenix的安装，请使用pip工具管理
+Windows 32位：pip install https://wxpython.org/Phoenix/snapshot-builds/wxPython_Phoenix-3.0.3.dev2674+b4e9d89-cp35-cp35m-win32.whl 
+Windows 64位：pip install https://wxpython.org/Phoenix/snapshot-builds/wxPython_Phoenix-3.0.3.dev2674+b4e9d89-cp35-cp35m-win_amd64.whl 
+Mac:pip install https://wxpython.org/Phoenix/snapshot-builds/wxPython_Phoenix-3.0.3.dev2674+b4e9d89-cp35-cp35m-macosx_10_6_intel.whl 
+关于wxPython Phoenix的相关信息，请查询官方主页了解
+关于wxPython Phoenix与wxPython之间API的变更，请查询http://wxpython.org/Phoenix/docs/html/classic_vs_phoenix.html 
+参考代码：
+custom_dialogs.py
+# -*- coding: utf-8 -*-
+ 
+import wx
+import quotespd
+  
+class ChangeDepthDialog(wx.Dialog):
+      
+    def __init__(self, *args, **kw):
+        super(ChangeDepthDialog, self).__init__(*args, **kw) 
+  
+        self.InitUI()
+        self.SetSize((350, 200))
+        self.SetTitle("Configure Data")
+          
+    def InitUI(self):
+        self.option_list = ['open', 'close', 'high', 'low', 'volume']
+          
+        pnl = wx.Panel(self)
+        vbox = wx.BoxSizer(wx.VERTICAL)
+        hbox = wx.BoxSizer(wx.HORIZONTAL)
+  
+        sb = wx.StaticBox(pnl, label='Data Range')
+        sbs = wx.StaticBoxSizer(sb, orient=wx.VERTICAL) 
+          
+        sbs.Add(wx.StaticText(pnl, -1, r'Start Date'))
+        self.dc_start = wx.adv.DatePickerCtrl(pnl, -1, style=wx.adv.DP_DROPDOWN, pos=(130, 70))
+        sbs.Add(self.dc_start)
+        sbs.Add(wx.StaticText(pnl, -1, r'End Date'))
+        self.dc_end = wx.adv.DatePickerCtrl(pnl, -1, style=wx.adv.DP_DROPDOWN, pos=(330, 70))
+        sbs.Add(self.dc_end)
+        pnl.SetSizer(sbs)
+  
+        pnl2 = wx.Panel(self)
+        sb2 = wx.StaticBox(pnl2, label='Data Set')
+        sbs2 = wx.StaticBoxSizer(sb2, orient=wx.VERTICAL)        
+        self.cb_list = []
+        for l in self.option_list:
+            cb = wx.CheckBox(pnl2, label = l) # originally 3 params: style=wx.RB_GROUP
+            sbs2.Add(cb)
+            self.cb_list.append(cb)
+          
+           
+        pnl2.SetSizer(sbs2)
+        hbox.Add(pnl)
+        hbox.Add(pnl2)
+         
+        hbox2 = wx.BoxSizer(wx.HORIZONTAL)
+        okButton = wx.Button(self, label='Ok')
+        closeButton = wx.Button(self, label='Close')
+        hbox2.Add(okButton)
+        hbox2.Add(closeButton, flag=wx.LEFT, border=5)
+  
+        vbox.Add(hbox, proportion=1)
+        vbox.Add(hbox2, 
+            flag=wx.ALIGN_CENTER|wx.TOP|wx.BOTTOM, border=10)
+  
+        self.SetSizer(vbox)
+          
+        okButton.Bind(wx.EVT_BUTTON, self.OnClose)
+        closeButton.Bind(wx.EVT_BUTTON, self.OnCancel)
+      
+    def ShowDialog(self, code1):
+        self.code = code1
+        self.Show(True)
+          
+    def OnClose(self, e):
+        l = []
+        for i, cb in enumerate(self.cb_list):
+            if cb.GetValue():
+                l.append(self.option_list[i])
+        print (l)
+        print (self.code)
+        print (self.dc_start.GetValue(), self.dc_end.GetValue())
+        if l != []:
+            quotespd.PlotData(code = self.code, start = self.dc_start.GetValue(), end = self.dc_end.GetValue(), list = l)
+        #self.Destroy()
+    def OnCancel(self, e):
+        self.Close()
+  
+def ConfigureData(codes):
+    print ("codes in dialogs", codes)
+    ex = wx.App()
+    print ("retrived the first code", codes[0])
+    cd = ChangeDepthDialog(None)
+    cd.ShowDialog(codes[0])
+    ex.MainLoop()
+dji.py
+# -*- coding: utf-8 -*-
+ 
+import wx
+import wx.adv
+import urllib
+import re
+  
+from custom_dialogs import ConfigureData
+  
+class StockFrame(wx.Frame):
+    def __init__(self, title):
+        wx.Frame.__init__(self, None, title=title, size=(500,600))
+  
+        self.CreateStatusBar()
+  
+        menuBar = wx.MenuBar()
+  
+        filemenu= wx.Menu()
+        menuBar.Append(filemenu,"&File")
+          
+        menuAbout = filemenu.Append(wx.ID_ABOUT, "&About"," Information about this program")
+        filemenu.AppendSeparator()
+  
+        menuQuit = filemenu.Append(wx.ID_EXIT,"Q&uit"," Terminate the program")
+        self.Bind(wx.EVT_MENU, self.OnAbout, menuAbout)
+        self.Bind(wx.EVT_MENU, self.onQuit, menuQuit)
+        self.SetMenuBar(menuBar)
+  
+        panel = wx.Panel(self)
+  
+        codeSizer = wx.BoxSizer(wx.HORIZONTAL)
+        labelText = wx.StaticText(panel, label="Stock Code:")
+        codeSizer.Add(labelText, 0, wx.ALIGN_BOTTOM)
+        codeSizer.Add((10, 10))
+        addressText = wx.TextCtrl(panel, value='AAPL')
+        addressText.SetSize(addressText.GetEffectiveMinSize())
+        codeSizer.Add(addressText)
+        #self.addressText.Layout()
+        #self.control.Show(True)
+          
+        self.list = wx.ListCtrl(panel, wx.NewId(), style=wx.LC_REPORT)
+        self.list.InsertColumn(0,"Symbol")
+        self.list.InsertColumn(1,"Name")
+        self.list.InsertColumn(2,"Last Trade")  
+  
+        pos = self.list.InsertItem(0,"--")
+        self.list.SetItem(pos,1,"loading...")
+        self.list.SetItem(pos,2,"--")  
+        self.Bind(wx.EVT_LIST_ITEM_ACTIVATED, self.OnClick, self.list)
+          
+        vsizer = wx.BoxSizer(wx.VERTICAL)
+        vsizer.Add(codeSizer, 0, wx.ALL, 10)
+        vsizer.Add(self.list, -1, wx.ALL | wx.EXPAND, 10)
+        #panel.SetSizer(self.sizer)
+  
+        hsizer = wx.BoxSizer(wx.HORIZONTAL)
+        hsizer.Add((10, 10))
+        buttonQuit = wx.Button(panel, -1, "Quit")
+        self.Bind(wx.EVT_BUTTON, self.onQuit, buttonQuit)
+        buttonQuit.SetDefault()
+        hsizer.Add(buttonQuit, 1)
+  
+        buttonRefresh = wx.Button(panel, -1, "Refresh")
+        self.Bind(wx.EVT_BUTTON, self.onRefresh, buttonRefresh)
+        hsizer.Add(buttonRefresh, 1)
+        #self.buttonGroupSizer.Layout()
+        #self.buttonGroupSizer.Fit(self)
+        vsizer.Add(hsizer, 0, wx.ALIGN_BOTTOM)
+        #self.sizer.Layout()
+        #vsizer.Fit(self)
+  
+        #self.buttonGroupSizer.Fit(self)
+        ###self.SetSizer(self.buttonGroupSizer)
+        panel.SetSizerAndFit(vsizer)        
+        panel.Layout()        
+        #self.Show(True)
+          
+        '''frameSizer = wx.BoxSizer(wx.VERTICAL)
+        frameSizer.Add(panel)
+        self.SetSizerAndFit(frameSizer)
+        self.Layout()
+        self.Fit()'''
+  
+    def setData(self, data):
+        self.list.ClearAll()
+        self.list.InsertColumn(0,"Symbol")
+        self.list.InsertColumn(1,"Name")
+        self.list.InsertColumn(2,"Last Trade")  
+        pos = 0
+        for row in data:
+            # This one looks neater but cannot replace the "&amp;"
+            #self.list.Append(row)            
+            pos = self.list.InsertItem(pos+1, row[0])
+            self.list.SetItem(pos, 1, row[1].replace("&amp;", "&"))
+            self.list.SetColumnWidth(1, -1)
+            self.list.SetItem(pos, 2, row[2])
+            if (pos % 2 == 0):
+                # Get the item at a specific index:
+                #item = self.list.GetItem(pos)
+                self.list.SetItemBackgroundColour(pos, (134, 225, 249))
+                # Set new look and feel back to the list
+                #self.list.SetItem(item)
+        self.FitInside()
+        pass
+          
+    def GetAllSelected(self):
+        selection = []
+  
+        # start at -1 to get the first selected item
+        current = -1
+        while True:
+            next = self.GetNextSelected(current)
+            if next == -1:
+                return selection
+  
+            selection.append(self.list.GetItemText(next))
+            current = next
+  
+    def GetNextSelected(self, current):
+        return self.list.GetNextItem(current,
+                                wx.LIST_NEXT_ALL,
+                                wx.LIST_STATE_SELECTED)
+  
+    def OnClick(self, event):
+        codes = self.GetAllSelected()
+        print ("code in DJI", codes)
+        ConfigureData(codes)
+          
+    def OnAbout(self, event):
+        dlg = wx.MessageDialog( self, "A small text editor", "About Sample Editor", wx.OK)
+        dlg.ShowModal()
+        dlg.Destroy()
+  
+    def onQuit(self, event):
+        self.Close()
+        self.Destroy()
+          
+    def onRefresh(self, event):
+        pass
+  
+app = wx.App(False)
+  
+top = StockFrame("Dow Jones Industrial Average (^DJI)")
+top.Show(True)
+  
+# url below update:   https://hk.finance.yahoo.com/q/cp?s=%5EDJI
+str = urllib.request.urlopen('https://hk.finance.yahoo.com/q/cp?s=%5EDJI').read().decode('utf-8')
+m = re.findall("<tr><td class=\"yfnc_tabledata1\"><b><a href=\".*?\">(.*?)</a></b></td><td class=\"yfnc_tabledata1\">(.*?)</td>.*?<b>(.*?)</b>.*?</tr>", str)
+if m:
+    #print m
+    #print"\n"
+    print (len(m))
+    top.setData(m)
+else:  
+    wx.MessageBox('Download failed.', 'Message',  wx.OK | wx.ICON_INFORMATION)
+  
+app.MainLoop()
+quotespd.py
+# -*- coding: utf-8 -*-
+ 
+from matplotlib.finance import quotes_historical_yahoo_ochl
+from datetime import date
+from datetime import datetime
+import pandas as pd
+import numpy
+import scipy.stats
+import matplotlib.pyplot as plt
+  
+def _wxdate2pydate(date):
+     import datetime
+     if date.IsValid():
+          ymd = map(int, date.FormatISODate().split('-'))
+          return datetime.date(*ymd)
+     else:
+          return None
+  
+def PlotData(code, start, end, list):
+    start_date = _wxdate2pydate(start)
+    end_date = _wxdate2pydate(end)
+    print (code)
+    print (start_date)
+    print (end_date)
+    quotes = quotes_historical_yahoo_ochl(code, start_date, end_date)
+    fields = ['date','open','close','high','low','volume']
+    list1 = []
+    for i in range(0,len(quotes)):
+        x = date.fromordinal(int(quotes[i][0]))
+        y = datetime.strftime(x,'%Y-%m-%d')
+        list1.append(y)
+    print (list1)
+      
+    quotesdf = pd.DataFrame(quotes, index = list1, columns = fields)
+    quotesdf = quotesdf.drop(['date'], axis = 1)
+    quotesdftemp = pd.DataFrame()
+   
+    for i in range(0,len(list)):
+        quotesdftemp[list[i]] = quotesdf[list[i]]
+     
+    print (quotesdftemp)
+    print ("ready to plot")
+    quotesdftemp.plot()
+    plt.show()

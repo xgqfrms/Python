@@ -1,0 +1,90 @@
+第五周 Python基本数据统计单元测验查看帮助返回
+测验的提交截止时间已过，你可以作为自我学习进行测验，但是提交的结果将无法获得学分。
+ 倒计时： 19:55
+1填空(1分)
+如下的题目都是基于如下获取雅虎财经上市公司股票的历史数据的程序。
+                  Table 1 在线读入股票历史数据的代码
+from matplotlib.finance import quotes_historical_yahoo_ochl
+from datetime import date
+import pandas as pd
+today = date.today()
+start = (today.year-2, today.month, ____)
+quotes = quotes_historical_yahoo_ochl('____', start, today)
+在上图的横线处填入答案，使得获取到的数据是从两年前的今天到现在的微软公司的股票历史数据（关于微软的公司代号，可以在该页面http://finance.yahoo.com/q/cp?s=^DJI 中找到）（请将结果用一个半角分号分隔）。
+
+请输入答案
+2填空(1分)
+继续上述的代码表格，为微软的quotes数据添加属性名:
+                 Table 2 根据Table 1代码读入的历史数据，为这些数据添加属性名
+attributes = ['date','open','close','high','low','volume']
+quotesdf = pd.DataFrame(quotes, _____ = attributes)
+在上述的横线处填入答案。
+
+请输入答案
+3填空(1分)
+继续上述的代码表格，为这部分数据将索引列更换为日期，并删除掉原先的date列，日期格式是2015年1月30日，显示为 ‘15/01/30’ 注意空格和符号。
+                    Table 3 根据Table 2代码中的quotesdf对其进行索引更换
+list1 = []
+for i in range(0, len(quotes)):
+    x = date.fromordinal(int(quotes[i][0]))
+    y = date.strftime(x, '___________')
+list1.append(y)
+quotesdf.index = list1
+quotesdf = quotesdf.drop(['date'], axis = 1 )
+在上述的横线处填入答案。
+
+请输入答案
+4判断(1分)
+判断如下陈述是否正确？
+根据第3题调整过的数据，要获取2015年1月30日到2月10日这期间微软更换CEO阶段股票的开盘价和收盘价，下面的命令可以运行并得到我们想要的结果：
+quotesdf.ix['15/01/30':'15/02/10',['open', 'close']]
+
+A.
+
+B.
+5填空(1分)
+在前面内容的基础上，填写以下内容，使得统计在2015年整年内（即1月1日至12月31日）微软股票涨价的每个月天数据(为保证答案唯一性，请填写尽可能短的字符串答案，并将两个结果之间用一个半角分号分隔)。
+list1 = []
+tmpdf = quotesdf['15/01/01':'15/12/31']
+for i in range(0, len(tmpdf)):
+list1.append(int(tmpdf.index[i][3:5]))
+tmpdf['____'] = list1
+print tmpdf[ tmpdf.close > temp._____]['month'].value_counts()
+
+请输入答案
+6填空(1分)
+在前面内容的基础上，填写以下内容，使得统计在2015年整年内（即1月1日至12月31日）微软股票每个月的总成交量。
+tmpdf.groupby('_____')['volume'].sum()
+
+请输入答案
+7多选(1分)
+以下哪几个选项可以查询在2015年整年内（即1月1日至12月31日）微软股票收盘价最高的5天数据。
+quotesdf['15/01/01':'16/01/01'].sort('close', ascending=False)[____]
+
+A.
+:5
+
+B.
+1:5
+
+C.
+0:5
+
+D.
+5:
+8单选(1分)
+以下哪一个选项能合并在2015年整年内（即1月1日至12月31日）微软股票收盘价最高的5天和最低的5天？
+sorted = quotesdf.sort('close')
+pd.concat([sorted[:5],sorted[__:]])
+
+A.
+len(quotesdf)-6
+
+B.
+5
+
+C.
+-5
+
+D.
+7
