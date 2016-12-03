@@ -1,0 +1,6 @@
+{
+  "name": "Python",
+  "tagline": "Python27 & Python35",
+  "body": "# Python playground repo\r\n\r\n## try: && except Exception as e:\r\n```py     \r\n     try:\r\n          # do somthing\r\n     except Exception as e:\r\n          logging.exception(e)\r\n          print 'craw error:' + e\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
