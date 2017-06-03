@@ -49,3 +49,15 @@ https://rollbar.com/assets/docs/images/logos/perl.png
 分析 图片资源 URL path
 
 拼接 path
+
+
+
+# new images url
+
+https://rollbar.com/assets/homepage/images/sprite-2x.png
+
+
+https://github.com/xgqfrms/Python/tree/gh-pages/spider/spider
+
+https://github.com/xgqfrms/Python/blob/gh-pages/python35-tutorial-MOOC/fib.py
+
