@@ -11,3 +11,9 @@ total_pounds = total_pounds - 100
 total_dollars = (total_pounds/x_rate)-fee
 import math
 total_dollars = math.ceil(total_pounds/x_rate)-fee
+
+
+## Python 3
+
+
+https://www.cnblogs.com/xgqfrms/p/10340035.html
