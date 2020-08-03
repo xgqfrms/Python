@@ -32,6 +32,14 @@ $ pip list
 https://pypi.org/search/?q=camelcase
 
 
+https://pypi.org/project/camelcase/
+
+```py
+from camelcase import CamelCase
+
+```
+
+
 ```py
 # line comment
 

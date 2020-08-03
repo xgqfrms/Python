@@ -19,3 +19,16 @@ __author__ = 'xgqfrms'
  */
 
 """
+
+from camelcase import CamelCase
+
+# import CamelCase as camelcase
+
+c = CamelCase()
+
+txt = "hello world"
+
+print(c.hump(txt))
+
+
+
