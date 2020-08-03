@@ -5,6 +5,9 @@
       "# coding: utf8",
       "",
       "__author__ = 'xgqfrms'",
+      "",
+      "\"\"\"",
+      "",
       "/**",
       " * ",
       " * @author xgqfrms",
@@ -19,7 +22,7 @@
       " * ",
       " */",
       "",
-      "",
+      "\"\"\""
     ],
     "description": "Python3 Template & code snippets!"
   }
