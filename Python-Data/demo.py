@@ -1,8 +1,8 @@
 # coding: utf8
 
-# import camelcase
+import camelcase
 # import CamelcasedModule as camelcased_module
-import CamelCase as camelcase
+# import CamelCase as camelcase
 
 # ModuleNotFoundError: No module named 'Camelcase'
 
@@ -12,5 +12,6 @@ c = camelcase.CamelCase()
 txt = "hello world"
 
 print(c.hump(txt))
+#This method capitalizes the first letter of each word.
 
 

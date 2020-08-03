@@ -24,3 +24,10 @@ turtle.tracer(True)
 
 time.sleep(3)
 
+
+"""
+
+block comments
+
+
+"""

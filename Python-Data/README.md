@@ -16,3 +16,32 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named '_tkinter'
 
 ```
+
+## pip
+
+```sh
+$ pip install camelcase
+
+$ pip uninstall camelcase
+
+$ pip list
+
+
+```
+
+https://pypi.org/search/?q=camelcase
+
+
+```py
+# line comment
+
+""" block comments """
+
+"""
+
+block comments
+
+
+"""
+
+```
