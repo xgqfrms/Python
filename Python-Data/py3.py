@@ -20,6 +20,7 @@ __author__ = 'xgqfrms'
 
 """
 
+# from .main import CamelCase
 from camelcase import CamelCase
 
 # import CamelCase as camelcase
