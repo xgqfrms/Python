@@ -1,4 +1,5 @@
 # python test
+
 * [http://campus.codeschool.com/courses/try-python/level/1/section/2/exchange-rate-calculations-2](http://campus.codeschool.com/courses/try-python/level/1/section/2/exchange-rate-calculations-2)
 
 x_rate = 0.65
