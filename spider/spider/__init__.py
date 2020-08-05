@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # coding: utf8
 
 __author__ = 'xgqfrms'
@@ -28,5 +26,20 @@ __copyright__ = """
   */
 """
 
+import test
+
+class Main():
+  # 构造函数 初始化
+  def __init__(self):
+    # test.pyc
+    self.test = test.Test()
+  def log(name):
+    self.test.sum(1, 2)
+    print 'python2 print function' + name
 
 
+# main 程序的入口
+if __name__ == '__main__':
+  # 实例化
+  app = Main()
+  app.log('app')

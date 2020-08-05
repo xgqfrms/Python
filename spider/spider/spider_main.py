@@ -8,8 +8,6 @@ import html_downloader
 import html_parser
 import html_outputer
 
-import test
-
 # 导入部分模块
 # from spider import url_manager
 # from spider import html_downloader
@@ -28,8 +26,6 @@ import test
 class SpiderMain(object):
   # 构造函数 初始化
   def __init__(self):
-    # test.pyc
-    self.test = test.Test()
     # urls 管理
     self.urls = url_manager.UrlManager()
     # html 下载
