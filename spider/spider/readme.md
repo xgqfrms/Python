@@ -17,3 +17,20 @@ soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
 print soup.prettify()
 
 ```
+
+## Testing
+
+http://baike.baidu.com/view/21087.htm
+
+http://baike.baidu.com/view/21087.html
+
+=> 重定向
+
+https://baike.baidu.com/item/Python/407313
+
+
+
+## .pyc ???
+
+
+
