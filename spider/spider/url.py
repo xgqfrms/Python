@@ -8,8 +8,11 @@ __copyright__ = """
 """
 
 # Python 2.7 version
-
 import urllib2
+
+# Python 3.7 version
+# import urllib
+
 import cookielib
 
 # url = "https://rollbar.com/docs/"
