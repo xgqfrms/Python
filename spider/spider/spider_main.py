@@ -7,6 +7,7 @@ import url_manager
 import html_downloader
 import html_parser
 import html_outputer
+# import url_manager, html_downloader, html_parser, html_outputer
 
 # 导入部分模块
 # from spider import url_manager
