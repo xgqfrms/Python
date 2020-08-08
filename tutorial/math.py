@@ -6,7 +6,7 @@ Created on Wed Jan 30 22:12:43 2019
 @author: xgqfrms-mbp
 """
 
-#coding: utf-8
+# coding: utf-8
 from __future__ import division
 
 def jia(x,y):
