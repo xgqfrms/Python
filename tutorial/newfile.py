@@ -1,1 +1,1 @@
-Some new text
+initial contents
