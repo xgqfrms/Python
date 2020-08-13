@@ -30,15 +30,18 @@ class decorator_with_arguments(object):
     """
     print("2. Inside __call__()")
     def wrapped_f(*args):
-      print("Inside wrapped_f()")
-      print("Decorator arguments:", self.arg1, self.arg2, self.arg3)
+      print("\n5. Inside wrapped_f()")
+      print("6. Decorator arguments:", self.arg1, self.arg2, self.arg3)
       f(*args)
-      print("After f(*args)")
-      return wrapped_f
+      print("8. After f(*args)")
+    # return OK ✅ ??? __call__ 闭包函数 ???
+    return wrapped_f
+      # return bug ❌
+      # return wrapped_f
 
 @decorator_with_arguments("a1", "a2", "a3")
-def sayHello(a1, a2, a3):
-  print('sayHello arguments:', a1, a2, a3)
+def sayHello(a1, a2, a3, a4):
+  print('7. sayHello arguments: \n', a1, a2, a3, a4)
 
 # @decorator_with_arguments("a1", "a2", "a3")
 # def sayHello(a1, a2, a3, a4):
@@ -51,30 +54,39 @@ print("4. Preparing to call sayHello()")
 sayHello("say", "hello", "argument", "list")
 # TypeError: 'NoneType' object is not callable
 
-print("after first sayHello() call")
+print("9. after first sayHello() call\n")
 
 sayHello("a", "different", "set of", "arguments")
 
-print("after second sayHello() call")
-
-
-# decorator factory
-
-def decorator_factory(argument):
-  def decorator(function):
-    def wrapper(*args, **kwargs):
-      funny_stuff()
-      something_with_argument(argument)
-      result = function(*args, **kwargs)
-      more_funny_stuff()
-      return result
-    return wrapper
-  return decorator
+print("9. after second sayHello() call")
 
 
 """
 
 # test
 $ python3 decorators-at-with-arguments.py
+
+"""
+
+"""
+1. Inside __init__()
+2. Inside __call__()
+3. After decoration
+4. Preparing to call sayHello()
+
+5. Inside wrapped_f()
+6. Decorator arguments: a1 a2 a3
+7. sayHello arguments:
+ say hello argument list
+8. After f(*args)
+9. after first sayHello() call
+
+
+5. Inside wrapped_f()
+6. Decorator arguments: a1 a2 a3
+7. sayHello arguments:
+ a different set of arguments
+8. After f(*args)
+9. after second sayHello() call
 
 """

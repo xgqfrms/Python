@@ -23,7 +23,10 @@ class decorator_with_arguments(object):
             print("Decorator arguments:", self.arg1, self.arg2, self.arg3)
             f(*args)
             print("After f(*args)")
+        # return OK ✅ ??? __call__ 闭包函数 ???
         return wrapped_f
+          # return bug ❌
+          # return wrapped_f
 
 @decorator_with_arguments("hello", "world", 42)
 def sayHello(a1, a2, a3, a4):
