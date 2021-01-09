@@ -83,5 +83,8 @@
   // HTML & overwrite User settings.json
   "html.format.extraLiners": "",
   "html.format.enable": false,
-  "html.format.contentUnformatted": "body, div, section, script, pre,code,textarea"
+  "html.format.contentUnformatted": "body, div, section, script, pre,code,textarea",
+  "cSpell.words": [
+    "pygame"
+  ]
 }
