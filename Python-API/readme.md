@@ -20,3 +20,21 @@ Function B 10.0
 after __name__ guard
 
 ```
+
+
+```sh
+$ ls
+# chmod 777 / chmod 755
+$ chmod +x ./dict.py
+
+# 可执行脚本
+# #!/usr/bin/python3
+$ ./dict.py
+
+```
+
+```sh
+# 指定解释器
+$ python3 ./dict.py
+
+```
