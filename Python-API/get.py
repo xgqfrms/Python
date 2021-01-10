@@ -5,11 +5,14 @@ from url.parse import parse_qs
 from wsgiref.simple_server import make_server
 
 # 此处定义一个字典
-dic_t = {"test1":'Hello', "test2":'Hi'}
-# ​dic_t = {
-#   "test1":'Hello',
-#   "test2":'Hi',
-# }
+# ✅ 一行 OK
+# dic_t = {"key1":'Hello World!', "key2":'Hello Python!'}
+
+# ✅ 多行 OK
+dic_t = {
+  'key1':'Hello World!',
+  'key2':'Hello Python!',
+}
 
 # 用于返回网址中的参数对应值​
 def application(environ, start_response):

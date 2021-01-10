@@ -3,7 +3,7 @@
 # ✅ 一行 OK
 # dict = {'Name': 'xgqfrms', 'Age': 18, 'Class': 'First'}
 
-# ✅ 多行错误
+# ✅ 多行 OK
 dict = {
   'Name': 'xgqfrms',
   'Age': 18,
