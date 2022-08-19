@@ -39,4 +39,23 @@ test(1,2,3)
 # test(1,2,3,4)
 # TypeError: test() takes 3 positional arguments but 4 were given
 
+
+# 不定长参数
+def printArgs(arg1, *args ):
+   # "打印任何传入的参数"
+   print("arg1 =", arg1)
+   for arg in args:
+      print("arg =", arg)
+   return
+ 
+printArgs(1)
+# arg1 = 1
+print('\n')
+printArgs(1,2,3)
+# arg1 = 1
+# arg = 2
+# arg = 3
+
+
+
 # https://www.runoob.com/python/python-functions.html
