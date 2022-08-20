@@ -60,7 +60,8 @@ print(result)
 
 
 """
-python cutsom __add__
+
+Python custom modify the __add__ method All In One
 
 
 https://www.codingem.com/python-__add__-method/
